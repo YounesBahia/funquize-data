@@ -1,10 +1,803 @@
 [
   {
     "id": 1,
-    "category": "Science",
-    "question": "What is the chemical symbol for water?",
-    "options": ["H2O", "O2", "CO2", "NaCl"],
+    "text": "What is the capital of France?",
+    "choices": ["London", "Paris", "Berlin", "Madrid"],
+    "correctIndex": 1,
+    "category": "geography"
+  },
+  {
+    "id": 2,
+    "text": "Who wrote 'Romeo and Juliet'?",
+    "choices": ["Charles Dickens", "William Shakespeare", "Mark Twain", "Jane Austen"],
+    "correctIndex": 1,
+    "category": "literature"
+  },
+  {
+    "id": 3,
+    "text": "What is the largest planet in our solar system?",
+    "choices": ["Earth", "Mars", "Jupiter", "Saturn"],
+    "correctIndex": 2,
+    "category": "science"
+  },
+  {
+    "id": 4,
+    "text": "In which year did World War II end?",
+    "choices": ["1943", "1944", "1945", "1946"],
+    "correctIndex": 2,
+    "category": "history"
+  },
+  {
+    "id": 5,
+    "text": "What is the chemical symbol for gold?",
+    "choices": ["Go", "Gd", "Au", "Ag"],
+    "correctIndex": 2,
+    "category": "science"
+  },
+  {
+    "id": 6,
+    "text": "Which sport is associated with Wimbledon?",
+    "choices": ["Football", "Tennis", "Cricket", "Rugby"],
+    "correctIndex": 1,
+    "category": "sports"
+  },
+  {
+    "id": 7,
+    "text": "Who directed the movie 'Titanic'?",
+    "choices": ["Steven Spielberg", "James Cameron", "Martin Scorsese", "Christopher Nolan"],
+    "correctIndex": 1,
+    "category": "movies"
+  },
+  {
+    "id": 8,
+    "text": "What does CPU stand for?",
+    "choices": ["Central Processing Unit", "Computer Personal Unit", "Central Program Utility", "Core Processing Unit"],
     "correctIndex": 0,
-    "difficulty": "easy"
-  }
-]
+    "category": "technology"
+  },
+  {
+    "id": 9,
+    "text": "Which ocean is the largest?",
+    "choices": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+    "correctIndex": 3,
+    "category": "geography"
+  },
+  {
+    "id": 10,
+    "text": "Who painted the Mona Lisa?",
+    "choices": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
+    "correctIndex": 2,
+    "category": "general"
+  },
+  {
+    "id": 11,
+    "text": "What is the smallest prime number?",
+    "choices": ["0", "1", "2", "3"],
+    "correctIndex": 2,
+    "category": "general"
+  },
+  {
+    "id": 12,
+    "text": "Which planet is known as the Red Planet?",
+    "choices": ["Venus", "Mars", "Jupiter", "Mercury"],
+    "correctIndex": 1,
+    "category": "science"
+  },
+  {
+    "id": 13,
+    "text": "Who was the first President of the United States?",
+    "choices": ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "John Adams"],
+    "correctIndex": 1,
+    "category": "history"
+  },
+  {
+    "id": 14,
+    "text": "What is the longest river in the world?",
+    "choices": ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"],
+    "correctIndex": 1,
+    "category": "geography"
+  },
+  {
+    "id": 15,
+    "text": "How many strings does a standard guitar have?",
+    "choices": ["4", "5", "6", "7"],
+    "correctIndex": 2,
+    "category": "music"
+  },
+  {
+    "id": 16,
+    "text": "Which programming language is known as the 'mother of all languages'?",
+    "choices": ["C", "Python", "Java", "Assembly"],
+    "correctIndex": 0,
+    "category": "technology"
+  },
+  {
+    "id": 17,
+    "text": "What is the currency of Japan?",
+    "choices": ["Yuan", "Won", "Yen", "Ringgit"],
+    "correctIndex": 2,
+    "category": "general"
+  },
+  {
+    "id": 18,
+    "text": "Who wrote '1984'?",
+    "choices": ["Aldous Huxley", "George Orwell", "Ray Bradbury", "H.G. Wells"],
+    "correctIndex": 1,
+    "category": "literature"
+  },
+  {
+    "id": 19,
+    "text": "What is the hardest natural substance on Earth?",
+    "choices": ["Gold", "Iron", "Diamond", "Platinum"],
+    "correctIndex": 2,
+    "category": "science"
+  },
+  {
+    "id": 20,
+    "text": "In which year did the Titanic sink?",
+    "choices": ["1910", "1912", "1914", "1916"],
+    "correctIndex": 1,
+    "category": "history"
+  },
+  {
+    "id": 21,
+    "text": "Which country is known as the Land of the Rising Sun?",
+    "choices": ["China", "South Korea", "Japan", "Thailand"],
+    "correctIndex": 2,
+    "category": "geography"
+  },
+  {
+    "id": 22,
+    "text": "How many players are there in a basketball team on the court?",
+    "choices": ["4", "5", "6", "7"],
+    "correctIndex": 1,
+    "category": "sports"
+  },
+  {
+    "id": 23,
+    "text": "Who composed the 'Four Seasons'?",
+    "choices": ["Mozart", "Beethoven", "Vivaldi", "Bach"],
+    "correctIndex": 2,
+    "category": "music"
+  },
+  {
+    "id": 24,
+    "text": "What does HTML stand for?",
+    "choices": ["Hyper Text Markup Language", "High Tech Modern Language", "Home Tool Markup Language", "Hyperlinks and Text Markup Language"],
+    "correctIndex": 0,
+    "category": "technology"
+  },
+  {
+    "id": 25,
+    "text": "Which movie won the Academy Award for Best Picture in 1994?",
+    "choices": ["Pulp Fiction", "The Shawshank Redemption", "Forrest Gump", "The Lion King"],
+    "correctIndex": 2,
+    "category": "movies"
+  },
+  {
+    "id": 26,
+    "text": "What is the speed of light in vacuum?",
+    "choices": ["299,792 km/s", "300,000 km/s", "299,792,458 m/s", "Both A and C"],
+    "correctIndex": 3,
+    "category": "science"
+  },
+  {
+    "id": 27,
+    "text": "Which ancient wonder of the world still exists today?",
+    "choices": ["Hanging Gardens of Babylon", "Great Pyramid of Giza", "Colossus of Rhodes", "Lighthouse of Alexandria"],
+    "correctIndex": 1,
+    "category": "history"
+  },
+  {
+    "id": 28,
+    "text": "What is the capital of Australia?",
+    "choices": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+    "correctIndex": 2,
+    "category": "geography"
+  },
+  {
+    "id": 29,
+    "text": "Who wrote 'Pride and Prejudice'?",
+    "choices": ["Emily Brontë", "Jane Austen", "Charlotte Brontë", "Mary Shelley"],
+    "correctIndex": 1,
+    "category": "literature"
+  },
+  {
+    "id": 30,
+    "text": "How many bones are in the adult human body?",
+    "choices": ["186", "206", "226", "246"],
+    "correctIndex": 1,
+    "category": "science"
+  },
+  {
+    "id": 31,
+    "text": "Which element has the atomic number 1?",
+    "choices": ["Helium", "Hydrogen", "Lithium", "Carbon"],
+    "correctIndex": 1,
+    "category": "science"
+  },
+  {
+    "id": 32,
+    "text": "What is the largest desert in the world?",
+    "choices": ["Sahara Desert", "Arabian Desert", "Antarctic Desert", "Gobi Desert"],
+    "correctIndex": 2,
+    "category": "geography"
+  },
+  {
+    "id": 33,
+    "text": "Who invented the telephone?",
+    "choices": ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Guglielmo Marconi"],
+    "correctIndex": 2,
+    "category": "history"
+  },
+  {
+    "id": 34,
+    "text": "Which sport uses a shuttlecock?",
+    "choices": ["Tennis", "Squash", "Badminton", "Table Tennis"],
+    "correctIndex": 2,
+    "category": "sports"
+  },
+  {
+    "id": 35,
+    "text": "What is the main ingredient in guacamole?",
+    "choices": ["Tomato", "Avocado", "Pepper", "Onion"],
+    "correctIndex": 1,
+    "category": "general"
+  },
+  {
+    "id": 36,
+    "text": "Who directed 'The Godfather'?",
+    "choices": ["Martin Scorsese", "Francis Ford Coppola", "Steven Spielberg", "Stanley Kubrick"],
+    "correctIndex": 1,
+    "category": "movies"
+  },
+  {
+    "id": 37,
+    "text": "What does USB stand for?",
+    "choices": ["Universal Serial Bus", "United System Bus", "Universal System Base", "Unified Serial Base"],
+    "correctIndex": 0,
+    "category": "technology"
+  },
+  {
+    "id": 38,
+    "text": "Which classical composer became deaf later in life?",
+    "choices": ["Mozart", "Bach", "Beethoven", "Chopin"],
+    "correctIndex": 2,
+    "category": "music"
+  },
+  {
+    "id": 39,
+    "text": "What is the freezing point of water in Celsius?",
+    "choices": ["-1°C", "0°C", "1°C", "32°C"],
+    "correctIndex": 1,
+    "category": "science"
+  },
+  {
+    "id": 40,
+    "text": "Who wrote 'To Kill a Mockingbird'?",
+    "choices": ["Harper Lee", "John Steinbeck", "F. Scott Fitzgerald", "Ernest Hemingway"],
+    "correctIndex": 0,
+    "category": "literature"
+  },
+  {
+    "id": 41,
+    "text": "Which country hosted the 2016 Summer Olympics?",
+    "choices": ["China", "United Kingdom", "Brazil", "Russia"],
+    "correctIndex": 2,
+    "category": "sports"
+  },
+  {
+    "id": 42,
+    "text": "What is the smallest country in the world?",
+    "choices": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
+    "correctIndex": 1,
+    "category": "geography"
+  },
+  {
+    "id": 43,
+    "text": "In which year did World War I begin?",
+    "choices": ["1912", "1914", "1916", "1918"],
+    "correctIndex": 1,
+    "category": "history"
+  },
+  {
+    "id": 44,
+    "text": "What is the largest mammal in the world?",
+    "choices": ["African Elephant", "Blue Whale", "Giraffe", "Polar Bear"],
+    "correctIndex": 1,
+    "category": "science"
+  },
+  {
+    "id": 45,
+    "text": "Which programming language was developed by James Gosling at Sun Microsystems?",
+    "choices": ["Python", "C++", "Java", "Ruby"],
+    "correctIndex": 2,
+    "category": "technology"
+  },
+  {
+    "id": 46,
+    "text": "Who starred as Iron Man in the Marvel Cinematic Universe?",
+    "choices": ["Chris Evans", "Chris Hemsworth", "Robert Downey Jr.", "Mark Ruffalo"],
+    "correctIndex": 2,
+    "category": "movies"
+  },
+  {
+    "id": 47,
+    "text": "Which instrument has 88 keys?",
+    "choices": ["Organ", "Piano", "Accordion", "Harpsichord"],
+    "correctIndex": 1,
+    "category": "music"
+  },
+  {
+    "id": 48,
+    "text": "What is the chemical formula for water?",
+    "choices": ["H2O", "CO2", "O2", "H2O2"],
+    "correctIndex": 0,
+    "category": "science"
+  },
+  {
+    "id": 49,
+    "text": "Who wrote 'The Great Gatsby'?",
+    "choices": ["Ernest Hemingway", "F. Scott Fitzgerald", "John Steinbeck", "William Faulkner"],
+    "correctIndex": 1,
+    "category": "literature"
+  },
+  {
+    "id": 50,
+    "text": "What is the tallest mountain in the world?",
+    "choices": ["K2", "Kangchenjunga", "Mount Everest", "Lhotse"],
+    "correctIndex": 2,
+    "category": "geography"
+  },
+  {
+    "id": 51,
+    "text": "Who discovered penicillin?",
+    "choices": ["Louis Pasteur", "Alexander Fleming", "Marie Curie", "Jonas Salk"],
+    "correctIndex": 1,
+    "category": "history"
+  },
+  {
+    "id": 52,
+    "text": "How many sides does a hexagon have?",
+    "choices": ["5", "6", "7", "8"],
+    "correctIndex": 1,
+    "category": "general"
+  },
+  {
+    "id": 53,
+    "text": "Which sport is known as 'the beautiful game'?",
+    "choices": ["Basketball", "Football (Soccer)", "Tennis", "Rugby"],
+    "correctIndex": 1,
+    "category": "sports"
+  },
+  {
+    "id": 54,
+    "text": "What does RAM stand for in computing?",
+    "choices": ["Random Access Memory", "Rapid Application Management", "Read Access Module", "Runtime Application Memory"],
+    "correctIndex": 0,
+    "category": "technology"
+  },
+  {
+    "id": 55,
+    "text": "Who directed 'Jurassic Park'?",
+    "choices": ["George Lucas", "Steven Spielberg", "James Cameron", "Ridley Scott"],
+    "correctIndex": 1,
+    "category": "movies"
+  },
+  {
+    "id": 56,
+    "text": "Which Beatles member was murdered in 1980?",
+    "choices": ["Paul McCartney", "George Harrison", "John Lennon", "Ringo Starr"],
+    "correctIndex": 2,
+    "category": "music"
+  },
+  {
+    "id": 57,
+    "text": "What is the boiling point of water in Celsius at sea level?",
+    "choices": ["90°C", "95°C", "100°C", "105°C"],
+    "correctIndex": 2,
+    "category": "science"
+  },
+  {
+    "id": 58,
+    "text": "Who wrote 'Hamlet'?",
+    "choices": ["Christopher Marlowe", "William Shakespeare", "Ben Jonson", "John Webster"],
+    "correctIndex": 1,
+    "category": "literature"
+  },
+  {
+    "id": 59,
+    "text": "Which continent is the Sahara Desert located on?",
+    "choices": ["Asia", "Africa", "Australia", "South America"],
+    "correctIndex": 1,
+    "category": "geography"
+  },
+  {
+    "id": 60,
+    "text": "In which year did the Berlin Wall fall?",
+    "choices": ["1987", "1989", "1991", "1993"],
+    "correctIndex": 1,
+    "category": "history"
+  },
+  {
+    "id": 61,
+    "text": "What is the largest organ in the human body?",
+    "choices": ["Liver", "Brain", "Heart", "Skin"],
+    "correctIndex": 3,
+    "category": "science"
+  },
+  {
+    "id": 62,
+    "text": "Which company created the iPhone?",
+    "choices": ["Samsung", "Google", "Apple", "Microsoft"],
+    "correctIndex": 2,
+    "category": "technology"
+  },
+  {
+    "id": 63,
+    "text": "How many rings are on the Olympic flag?",
+    "choices": ["4", "5", "6", "7"],
+    "correctIndex": 1,
+    "category": "sports"
+  },
+  {
+    "id": 64,
+    "text": "Who played Jack Dawson in 'Titanic'?",
+    "choices": ["Brad Pitt", "Leonardo DiCaprio", "Tom Cruise", "Johnny Depp"],
+    "correctIndex": 1,
+    "category": "movies"
+  },
+  {
+    "id": 65,
+    "text": "Which band released the album 'Dark Side of the Moon'?",
+    "choices": ["Led Zeppelin", "The Beatles", "Pink Floyd", "The Rolling Stones"],
+    "correctIndex": 2,
+    "category": "music"
+  },
+  {
+    "id": 66,
+    "text": "What is the square root of 144?",
+    "choices": ["10", "11", "12", "13"],
+    "correctIndex": 2,
+    "category": "general"
+  },
+  {
+    "id": 67,
+    "text": "Who wrote 'The Catcher in the Rye'?",
+    "choices": ["J.D. Salinger", "Jack Kerouac", "Ernest Hemingway", "Kurt Vonnegut"],
+    "correctIndex": 0,
+    "category": "literature"
+  },
+  {
+    "id": 68,
+    "text": "What is the capital of Canada?",
+    "choices": ["Toronto", "Montreal", "Vancouver", "Ottawa"],
+    "correctIndex": 3,
+    "category": "geography"
+  },
+  {
+    "id": 69,
+    "text": "Who was the first person to walk on the moon?",
+    "choices": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "John Glenn"],
+    "correctIndex": 1,
+    "category": "history"
+  },
+  {
+    "id": 70,
+    "text": "What is the chemical symbol for iron?",
+    "choices": ["Ir", "Fe", "In", "Fr"],
+    "correctIndex": 1,
+    "category": "science"
+  },
+  {
+    "id": 71,
+    "text": "Which operating system is developed by Microsoft?",
+    "choices": ["macOS", "Linux", "Windows", "Unix"],
+    "correctIndex": 2,
+    "category": "technology"
+  },
+  {
+    "id": 72,
+    "text": "In which sport would you perform a slam dunk?",
+    "choices": ["Volleyball", "Basketball", "Tennis", "Handball"],
+    "correctIndex": 1,
+    "category": "sports"
+  },
+  {
+    "id": 73,
+    "text": "Who directed 'Inception'?",
+    "choices": ["Quentin Tarantino", "Christopher Nolan", "David Fincher", "Denis Villeneuve"],
+    "correctIndex": 1,
+    "category": "movies"
+  },
+  {
+    "id": 74,
+    "text": "Which artist is famous for cutting off his own ear?",
+    "choices": ["Pablo Picasso", "Vincent van Gogh", "Claude Monet", "Salvador Dalí"],
+    "correctIndex": 1,
+    "category": "general"
+  },
+  {
+    "id": 75,
+    "text": "What is the name of the longest river in South America?",
+    "choices": ["Paraná River", "Orinoco River", "Amazon River", "São Francisco River"],
+    "correctIndex": 2,
+    "category": "geography"
+  },
+  {
+    "id": 76,
+    "text": "Who invented the light bulb?",
+    "choices": ["Nikola Tesla", "Thomas Edison", "Alexander Graham Bell", "Benjamin Franklin"],
+    "correctIndex": 1,
+    "category": "history"
+  },
+  {
+    "id": 77,
+    "text": "How many teeth does an adult human typically have?",
+    "choices": ["28", "30", "32", "34"],
+    "correctIndex": 2,
+    "category": "science"
+  },
+  {
+    "id": 78,
+    "text": "What does WWW stand for?",
+    "choices": ["World Wide Web", "World Web Width", "Wide World Web", "Web World Wide"],
+    "correctIndex": 0,
+    "category": "technology"
+  },
+  {
+    "id": 79,
+    "text": "Who wrote 'The Lord of the Rings'?",
+    "choices": ["C.S. Lewis", "J.R.R. Tolkien", "George R.R. Martin", "Terry Pratchett"],
+    "correctIndex": 1,
+    "category": "literature"
+  },
+  {
+    "id": 80,
+    "text": "Which instrument is Yo-Yo Ma famous for playing?",
+    "choices": ["Violin", "Piano", "Cello", "Flute"],
+    "correctIndex": 2,
+    "category": "music"
+  },
+  {
+    "id": 81,
+    "text": "What is the largest island in the world?",
+    "choices": ["Madagascar", "Greenland", "New Guinea", "Borneo"],
+    "correctIndex": 1,
+    "category": "geography"
+  },
+  {
+    "id": 82,
+    "text": "In which year did the first iPhone launch?",
+    "choices": ["2005", "2006", "2007", "2008"],
+    "correctIndex": 2,
+    "category": "technology"
+  },
+  {
+    "id": 83,
+    "text": "Which football player has won the most Ballon d'Or awards?",
+    "choices": ["Cristiano Ronaldo", "Lionel Messi", "Michel Platini", "Johan Cruyff"],
+    "correctIndex": 1,
+    "category": "sports"
+  },
+  {
+    "id": 84,
+    "text": "Who directed 'Pulp Fiction'?",
+    "choices": ["Martin Scorsese", "Quentin Tarantino", "Coen Brothers", "Paul Thomas Anderson"],
+    "correctIndex": 1,
+    "category": "movies"
+  },
+  {
+    "id": 85,
+    "text": "What gas do plants absorb from the atmosphere?",
+    "choices": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+    "correctIndex": 2,
+    "category": "science"
+  },
+  {
+    "id": 86,
+    "text": "Who wrote 'Moby-Dick'?",
+    "choices": ["Nathaniel Hawthorne", "Herman Melville", "Edgar Allan Poe", "Mark Twain"],
+    "correctIndex": 1,
+    "category": "literature"
+  },
+  {
+    "id": 87,
+    "text": "What is the capital of Spain?",
+    "choices": ["Barcelona", "Madrid", "Valencia", "Seville"],
+    "correctIndex": 1,
+    "category": "geography"
+  },
+  {
+    "id": 88,
+    "text": "Who was the first female Prime Minister of the United Kingdom?",
+    "choices": ["Theresa May", "Margaret Thatcher", "Angela Merkel", "Indira Gandhi"],
+    "correctIndex": 1,
+    "category": "history"
+  },
+  {
+    "id": 89,
+    "text": "How many hours are in a day?",
+    "choices": ["12", "20", "24", "48"],
+    "correctIndex": 2,
+    "category": "general"
+  },
+  {
+    "id": 90,
+    "text": "Which social media platform uses a bird as its logo?",
+    "choices": ["Facebook", "Instagram", "Twitter", "Snapchat"],
+    "correctIndex": 2,
+    "category": "technology"
+  },
+  {
+    "id": 91,
+    "text": "In tennis, what is a score of zero called?",
+    "choices": ["Nil", "Love", "Zero", "Nought"],
+    "correctIndex": 1,
+    "category": "sports"
+  },
+  {
+    "id": 92,
+    "text": "Who composed 'The Magic Flute'?",
+    "choices": ["Beethoven", "Bach", "Mozart", "Haydn"],
+    "correctIndex": 2,
+    "category": "music"
+  },
+  {
+    "id": 93,
+    "text": "What is the smallest planet in our solar system?",
+    "choices": ["Mars", "Venus", "Mercury", "Pluto"],
+    "correctIndex": 2,
+    "category": "science"
+  },
+  {
+    "id": 94,
+    "text": "Who wrote 'The Odyssey'?",
+    "choices": ["Sophocles", "Homer", "Virgil", "Euripides"],
+    "correctIndex": 1,
+    "category": "literature"
+  },
+  {
+    "id": 95,
+    "text": "Which country has the most time zones?",
+    "choices": ["Russia", "United States", "France", "China"],
+    "correctIndex": 2,
+    "category": "geography"
+  },
+  {
+    "id": 96,
+    "text": "In which year did the American Civil War end?",
+    "choices": ["1863", "1864", "1865", "1866"],
+    "correctIndex": 2,
+    "category": "history"
+  },
+  {
+    "id": 97,
+    "text": "What is the main component of the sun?",
+    "choices": ["Helium", "Hydrogen", "Oxygen", "Carbon"],
+    "correctIndex": 1,
+    "category": "science"
+  },
+  {
+    "id": 98,
+    "text": "Which company makes the Galaxy smartphone?",
+    "choices": ["Apple", "Huawei", "Samsung", "Google"],
+    "correctIndex": 2,
+    "category": "technology"
+  },
+  {
+    "id": 99,
+    "text": "How many players are on a soccer team on the field?",
+    "choices": ["9", "10", "11", "12"],
+    "correctIndex": 2,
+    "category": "sports"
+  },
+  {
+    "id": 100,
+    "text": "Who played Forrest Gump in the movie of the same name?",
+    "choices": ["Tom Cruise", "Tom Hanks", "Brad Pitt", "Matt Damon"],
+    "correctIndex": 1,
+    "category": "movies"
+  },
+  {
+    "id": 101,
+    "text": "What is the currency of the United Kingdom?",
+    "choices": ["Euro", "Dollar", "Pound Sterling", "Franc"],
+    "correctIndex": 2,
+    "category": "general"
+  },
+  {
+    "id": 102,
+    "text": "Who painted 'Starry Night'?",
+    "choices": ["Claude Monet", "Vincent van Gogh", "Pablo Picasso", "Salvador Dalí"],
+    "correctIndex": 1,
+    "category": "general"
+  },
+  {
+    "id": 103,
+    "text": "What is the capital of Italy?",
+    "choices": ["Venice", "Milan", "Rome", "Florence"],
+    "correctIndex": 2,
+    "category": "geography"
+  },
+  {
+    "id": 104,
+    "text": "Who discovered the theory of relativity?",
+    "choices": ["Isaac Newton", "Albert Einstein", "Niels Bohr", "Stephen Hawking"],
+    "correctIndex": 1,
+    "category": "science"
+  },
+  {
+    "id": 105,
+    "text": "What does PDF stand for?",
+    "choices": ["Portable Document Format", "Personal Data File", "Public Document Format", "Printed Data File"],
+    "correctIndex": 0,
+    "category": "technology"
+  },
+  {
+    "id": 106,
+    "text": "Who wrote 'Harry Potter' series?",
+    "choices": ["J.R.R. Tolkien", "C.S. Lewis", "J.K. Rowling", "Roald Dahl"],
+    "correctIndex": 2,
+    "category": "literature"
+  },
+  {
+    "id": 107,
+    "text": "Which band was Freddie Mercury the lead singer of?",
+    "choices": ["The Beatles", "Led Zeppelin", "Queen", "The Rolling Stones"],
+    "correctIndex": 2,
+    "category": "music"
+  },
+  {
+    "id": 108,
+    "text": "How many continents are there?",
+    "choices": ["5", "6", "7", "8"],
+    "correctIndex": 2,
+    "category": "geography"
+  },
+  {
+    "id": 109,
+    "text": "Who was the first Roman Emperor?",
+    "choices": ["Julius Caesar", "Augustus", "Nero", "Caligula"],
+    "correctIndex": 1,
+    "category": "history"
+  },
+  {
+    "id": 110,
+    "text": "What is the hardest rock?",
+    "choices": ["Granite", "Marble", "Diamond", "Quartz"],
+    "correctIndex": 2,
+    "category": "science"
+  },
+  {
+    "id": 111,
+    "text": "Which sport is associated with the Super Bowl?",
+    "choices": ["Baseball", "Basketball", "American Football", "Ice Hockey"],
+    "correctIndex": 2,
+    "category": "sports"
+  },
+  {
+    "id": 112,
+    "text": "Who directed 'The Dark Knight'?",
+    "choices": ["Zack Snyder", "Christopher Nolan", "Tim Burton", "Joel Schumacher"],
+    "correctIndex": 1,
+    "category": "movies"
+  },
+  {
+    "id": 113,
+    "text": "What is the chemical symbol for sodium?",
+    "choices": ["So", "Sd", "Na", "S"],
+    "correctIndex": 2,
+    "category": "science"
+  },
+  {
+    "id": 114,
+    "text": "Who wrote 'The Divine Comedy'?",
+    "choices": ["Dante Alighieri", "Giovanni Boccaccio", "Petrarch", "Geoffrey Chaucer"],
+    "correctIndex": 0,
+    "category": "literature"
+  },
+  {
+    "id": 115,
+    "text": "Which ocean is between Africa and Australia?",
+    "choices
