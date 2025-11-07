@@ -3,7 +3,7 @@
     "id": 1,
     "text": "What is the capital of France?",
     "choices": ["London", "Paris", "Berlin", "Madrid"],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "category": "geography"
   },
   {
