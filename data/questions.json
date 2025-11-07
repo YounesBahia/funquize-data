@@ -796,4 +796,5 @@
     "choices": ["Dante Alighieri", "Giovanni Boccaccio", "Petrarch", "Geoffrey Chaucer"],
     "correctIndex": 0,
     "category": "literature"
-  },
+  }
+]
