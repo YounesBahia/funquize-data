@@ -1,800 +1,850 @@
 [
   {
     "id": 1,
-    "text": "What is the capital of France?",
-    "choices": ["London", "Paris", "Berlin", "Madrid"],
-    "correctIndex": 1,
-    "category": "geography"
+    "category": "geography",
+    "answer_index": 0,
+    "en": {
+      "q": "What is the largest ocean on Earth?",
+      "choices": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"]
+    },
+    "fr": {
+      "q": "Quel est le plus grand océan de la Terre ?",
+      "choices": ["Océan Pacifique", "Océan Atlantique", "Océan Indien", "Océan Arctique"]
+    },
+    "ar": {
+      "q": "ما هو أكبر محيط على الأرض؟",
+      "choices": ["المحيط الهادئ", "المحيط الأطلسي", "المحيط الهندي", "المحيط المتجمد الشمالي"]
+    }
   },
   {
     "id": 2,
-    "text": "Who wrote 'Romeo and Juliet'?",
-    "choices": ["Charles Dickens", "William Shakespeare", "Mark Twain", "Jane Austen"],
-    "correctIndex": 1,
-    "category": "literature"
+    "category": "science",
+    "answer_index": 2,
+    "en": {
+      "q": "What is the chemical symbol for gold?",
+      "choices": ["Go", "Gd", "Au", "Ag"]
+    },
+    "fr": {
+      "q": "Quel est le symbole chimique de l'or ?",
+      "choices": ["Go", "Gd", "Au", "Ag"]
+    },
+    "ar": {
+      "q": "ما هو الرمز الكيميائي للذهب؟",
+      "choices": ["Go", "Gd", "Au", "Ag"]
+    }
   },
   {
     "id": 3,
-    "text": "What is the largest planet in our solar system?",
-    "choices": ["Earth", "Mars", "Jupiter", "Saturn"],
-    "correctIndex": 2,
-    "category": "science"
+    "category": "history",
+    "answer_index": 1,
+    "en": {
+      "q": "In which year did World War II end?",
+      "choices": ["1944", "1945", "1946", "1943"]
+    },
+    "fr": {
+      "q": "En quelle année la Seconde Guerre mondiale s'est-elle terminée ?",
+      "choices": ["1944", "1945", "1946", "1943"]
+    },
+    "ar": {
+      "q": "في أي عام انتهت الحرب العالمية الثانية؟",
+      "choices": ["1944", "1945", "1946", "1943"]
+    }
   },
   {
     "id": 4,
-    "text": "In which year did World War II end?",
-    "choices": ["1943", "1944", "1945", "1946"],
-    "correctIndex": 2,
-    "category": "history"
+    "category": "sports",
+    "answer_index": 3,
+    "en": {
+      "q": "How many players are on a soccer team on the field?",
+      "choices": ["9", "10", "12", "11"]
+    },
+    "fr": {
+      "q": "Combien de joueurs composent une équipe de football sur le terrain ?",
+      "choices": ["9", "10", "12", "11"]
+    },
+    "ar": {
+      "q": "كم عدد اللاعبين في فريق كرة القدم على أرض الملعب؟",
+      "choices": ["9", "10", "12", "11"]
+    }
   },
   {
     "id": 5,
-    "text": "What is the chemical symbol for gold?",
-    "choices": ["Go", "Gd", "Au", "Ag"],
-    "correctIndex": 2,
-    "category": "science"
+    "category": "culture",
+    "answer_index": 0,
+    "en": {
+      "q": "Who painted the Mona Lisa?",
+      "choices": ["Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh", "Michelangelo"]
+    },
+    "fr": {
+      "q": "Qui a peint la Joconde ?",
+      "choices": ["Léonard de Vinci", "Pablo Picasso", "Vincent van Gogh", "Michel-Ange"]
+    },
+    "ar": {
+      "q": "من رسم لوحة الموناليزا؟",
+      "choices": ["ليوناردو دا فينشي", "بابلو بيكاسو", "فينسنت فان غوخ", "مايكل أنجلو"]
+    }
   },
   {
     "id": 6,
-    "text": "Which sport is associated with Wimbledon?",
-    "choices": ["Football", "Tennis", "Cricket", "Rugby"],
-    "correctIndex": 1,
-    "category": "sports"
+    "category": "general",
+    "answer_index": 2,
+    "en": {
+      "q": "What is the tallest mammal in the world?",
+      "choices": ["Elephant", "Rhino", "Giraffe", "Horse"]
+    },
+    "fr": {
+      "q": "Quel est le mammifère le plus grand du monde ?",
+      "choices": ["Éléphant", "Rhinocéros", "Girafe", "Cheval"]
+    },
+    "ar": {
+      "q": "ما هو أطول حيوان ثديي في العالم؟",
+      "choices": ["الفيل", "وحيد القرن", "الزرافة", "الحصان"]
+    }
   },
   {
     "id": 7,
-    "text": "Who directed the movie 'Titanic'?",
-    "choices": ["Steven Spielberg", "James Cameron", "Martin Scorsese", "Christopher Nolan"],
-    "correctIndex": 1,
-    "category": "movies"
+    "category": "science",
+    "answer_index": 1,
+    "en": {
+      "q": "What gas do plants absorb from the atmosphere?",
+      "choices": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"]
+    },
+    "fr": {
+      "q": "Quel gaz les plantes absorbent-elles de l'atmosphère ?",
+      "choices": ["Oxygène", "Dioxyde de carbone", "Azote", "Hydrogène"]
+    },
+    "ar": {
+      "q": "ما الغاز الذي تمتصه النباتات من الغلاف الجوي؟",
+      "choices": ["الأكسجين", "ثاني أكسيد الكربون", "النيتروجين", "الهيدروجين"]
+    }
   },
   {
     "id": 8,
-    "text": "What does CPU stand for?",
-    "choices": ["Central Processing Unit", "Computer Personal Unit", "Central Program Utility", "Core Processing Unit"],
-    "correctIndex": 0,
-    "category": "technology"
+    "category": "geography",
+    "answer_index": 3,
+    "en": {
+      "q": "What is the capital of Japan?",
+      "choices": ["Osaka", "Kyoto", "Hiroshima", "Tokyo"]
+    },
+    "fr": {
+      "q": "Quelle est la capitale du Japon ?",
+      "choices": ["Osaka", "Kyoto", "Hiroshima", "Tokyo"]
+    },
+    "ar": {
+      "q": "ما هي عاصمة اليابان؟",
+      "choices": ["أوساكا", "كيوتو", "هيروشيما", "طوكيو"]
+    }
   },
   {
     "id": 9,
-    "text": "Which ocean is the largest?",
-    "choices": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
-    "correctIndex": 3,
-    "category": "geography"
+    "category": "history",
+    "answer_index": 0,
+    "en": {
+      "q": "Who was the first president of the United States?",
+      "choices": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"]
+    },
+    "fr": {
+      "q": "Qui a été le premier président des États-Unis ?",
+      "choices": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"]
+    },
+    "ar": {
+      "q": "من كان أول رئيس للولايات المتحدة؟",
+      "choices": ["جورج واشنطن", "توماس جيفرسون", "أبراهام لينكولن", "جون آدامز"]
+    }
   },
   {
     "id": 10,
-    "text": "Who painted the Mona Lisa?",
-    "choices": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
-    "correctIndex": 2,
-    "category": "general"
+    "category": "sports",
+    "answer_index": 2,
+    "en": {
+      "q": "In which sport would you perform a slam dunk?",
+      "choices": ["Tennis", "Volleyball", "Basketball", "Baseball"]
+    },
+    "fr": {
+      "q": "Dans quel sport effectue-t-on un slam dunk ?",
+      "choices": ["Tennis", "Volleyball", "Basketball", "Baseball"]
+    },
+    "ar": {
+      "q": "في أي رياضة تؤدي حركة السلام دانك؟",
+      "choices": ["التنس", "الكرة الطائرة", "كرة السلة", "البيسبول"]
+    }
   },
   {
     "id": 11,
-    "text": "What is the smallest prime number?",
-    "choices": ["0", "1", "2", "3"],
-    "correctIndex": 2,
-    "category": "general"
+    "category": "culture",
+    "answer_index": 1,
+    "en": {
+      "q": "What is the largest religion in the world by number of followers?",
+      "choices": ["Islam", "Christianity", "Hinduism", "Buddhism"]
+    },
+    "fr": {
+      "q": "Quelle est la plus grande religion du monde par nombre de fidèles ?",
+      "choices": ["Islam", "Christianisme", "Hindouisme", "Bouddhisme"]
+    },
+    "ar": {
+      "q": "ما هي أكبر ديانة في العالم من حيث عدد المتبعين؟",
+      "choices": ["الإسلام", "المسيحية", "الهندوسية", "البوذية"]
+    }
   },
   {
     "id": 12,
-    "text": "Which planet is known as the Red Planet?",
-    "choices": ["Venus", "Mars", "Jupiter", "Mercury"],
-    "correctIndex": 1,
-    "category": "science"
+    "category": "general",
+    "answer_index": 0,
+    "en": {
+      "q": "How many continents are there on Earth?",
+      "choices": ["7", "6", "8", "5"]
+    },
+    "fr": {
+      "q": "Combien y a-t-il de continents sur Terre ?",
+      "choices": ["7", "6", "8", "5"]
+    },
+    "ar": {
+      "q": "كم عدد القارات على الأرض؟",
+      "choices": ["7", "6", "8", "5"]
+    }
   },
   {
     "id": 13,
-    "text": "Who was the first President of the United States?",
-    "choices": ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "John Adams"],
-    "correctIndex": 1,
-    "category": "history"
+    "category": "science",
+    "answer_index": 3,
+    "en": {
+      "q": "What is the speed of light in a vacuum?",
+      "choices": ["150,000 km/s", "250,000 km/s", "200,000 km/s", "300,000 km/s"]
+    },
+    "fr": {
+      "q": "Quelle est la vitesse de la lumière dans le vide ?",
+      "choices": ["150 000 km/s", "250 000 km/s", "200 000 km/s", "300 000 km/s"]
+    },
+    "ar": {
+      "q": "ما هي سرعة الضوء في الفراغ؟",
+      "choices": ["150,000 كم/ث", "250,000 كم/ث", "200,000 كم/ث", "300,000 كم/ث"]
+    }
   },
   {
     "id": 14,
-    "text": "What is the longest river in the world?",
-    "choices": ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"],
-    "correctIndex": 1,
-    "category": "geography"
+    "category": "geography",
+    "answer_index": 1,
+    "en": {
+      "q": "Which river is the longest in the world?",
+      "choices": ["Amazon", "Nile", "Yangtze", "Mississippi"]
+    },
+    "fr": {
+      "q": "Quel est le plus long fleuve du monde ?",
+      "choices": ["Amazone", "Nil", "Yangtsé", "Mississippi"]
+    },
+    "ar": {
+      "q": "ما هو أطول نهر في العالم؟",
+      "choices": ["الأمازون", "النيل", "اليانغتسي", "المسيسيبي"]
+    }
   },
   {
     "id": 15,
-    "text": "How many strings does a standard guitar have?",
-    "choices": ["4", "5", "6", "7"],
-    "correctIndex": 2,
-    "category": "music"
+    "category": "history",
+    "answer_index": 2,
+    "en": {
+      "q": "Who discovered America in 1492?",
+      "choices": ["Vasco da Gama", "Ferdinand Magellan", "Christopher Columbus", "Marco Polo"]
+    },
+    "fr": {
+      "q": "Qui a découvert l'Amérique en 1492 ?",
+      "choices": ["Vasco de Gama", "Ferdinand Magellan", "Christophe Colomb", "Marco Polo"]
+    },
+    "ar": {
+      "q": "من اكتشف أمريكا في عام 1492؟",
+      "choices": ["فاسكو دا غاما", "فرديناند ماجلان", "كريستوفر كولومبوس", "ماركو بولو"]
+    }
   },
   {
     "id": 16,
-    "text": "Which programming language is known as the 'mother of all languages'?",
-    "choices": ["C", "Python", "Java", "Assembly"],
-    "correctIndex": 0,
-    "category": "technology"
+    "category": "sports",
+    "answer_index": 0,
+    "en": {
+      "q": "How many rings are on the Olympic flag?",
+      "choices": ["5", "6", "4", "7"]
+    },
+    "fr": {
+      "q": "Combien d'anneaux y a-t-il sur le drapeau olympique ?",
+      "choices": ["5", "6", "4", "7"]
+    },
+    "ar": {
+      "q": "كم عدد الحلقات على العلم الأولمبي؟",
+      "choices": ["5", "6", "4", "7"]
+    }
   },
   {
     "id": 17,
-    "text": "What is the currency of Japan?",
-    "choices": ["Yuan", "Won", "Yen", "Ringgit"],
-    "correctIndex": 2,
-    "category": "general"
+    "category": "culture",
+    "answer_index": 3,
+    "en": {
+      "q": "In which country did the Renaissance begin?",
+      "choices": ["France", "Spain", "England", "Italy"]
+    },
+    "fr": {
+      "q": "Dans quel pays la Renaissance a-t-elle commencé ?",
+      "choices": ["France", "Espagne", "Angleterre", "Italie"]
+    },
+    "ar": {
+      "q": "في أي بلد بدأت عصر النهضة؟",
+      "choices": ["فرنسا", "إسبانيا", "إنجلترا", "إيطاليا"]
+    }
   },
   {
     "id": 18,
-    "text": "Who wrote '1984'?",
-    "choices": ["Aldous Huxley", "George Orwell", "Ray Bradbury", "H.G. Wells"],
-    "correctIndex": 1,
-    "category": "literature"
+    "category": "general",
+    "answer_index": 1,
+    "en": {
+      "q": "What is the largest planet in our solar system?",
+      "choices": ["Saturn", "Jupiter", "Neptune", "Uranus"]
+    },
+    "fr": {
+      "q": "Quelle est la plus grande planète de notre système solaire ?",
+      "choices": ["Saturne", "Jupiter", "Neptune", "Uranus"]
+    },
+    "ar": {
+      "q": "ما هو أكبر كوكب في نظامنا الشمسي؟",
+      "choices": ["زحل", "المشتري", "نبتون", "أورانوس"]
+    }
   },
   {
     "id": 19,
-    "text": "What is the hardest natural substance on Earth?",
-    "choices": ["Gold", "Iron", "Diamond", "Platinum"],
-    "correctIndex": 2,
-    "category": "science"
+    "category": "science",
+    "answer_index": 2,
+    "en": {
+      "q": "What is the hardest natural substance on Earth?",
+      "choices": ["Gold", "Iron", "Diamond", "Platinum"]
+    },
+    "fr": {
+      "q": "Quelle est la substance naturelle la plus dure sur Terre ?",
+      "choices": ["Or", "Fer", "Diamant", "Platine"]
+    },
+    "ar": {
+      "q": "ما هي أصلب مادة طبيعية على الأرض؟",
+      "choices": ["الذهب", "الحديد", "الماس", "البلاتين"]
+    }
   },
   {
     "id": 20,
-    "text": "In which year did the Titanic sink?",
-    "choices": ["1910", "1912", "1914", "1916"],
-    "correctIndex": 1,
-    "category": "history"
+    "category": "geography",
+    "answer_index": 0,
+    "en": {
+      "q": "Which desert is the largest in the world?",
+      "choices": ["Sahara Desert", "Gobi Desert", "Arabian Desert", "Kalahari Desert"]
+    },
+    "fr": {
+      "q": "Quel est le plus grand désert du monde ?",
+      "choices": ["Désert du Sahara", "Désert de Gobi", "Désert d'Arabie", "Désert du Kalahari"]
+    },
+    "ar": {
+      "q": "ما هي أكبر صحراء في العالم؟",
+      "choices": ["الصحراء الكبرى", "صحراء غوبي", "الصحراء العربية", "صحراء كالاهاري"]
+    }
   },
   {
     "id": 21,
-    "text": "Which country is known as the Land of the Rising Sun?",
-    "choices": ["China", "South Korea", "Japan", "Thailand"],
-    "correctIndex": 2,
-    "category": "geography"
+    "category": "history",
+    "answer_index": 3,
+    "en": {
+      "q": "In which year did the Berlin Wall fall?",
+      "choices": ["1987", "1990", "1988", "1989"]
+    },
+    "fr": {
+      "q": "En quelle année le mur de Berlin est-il tombé ?",
+      "choices": ["1987", "1990", "1988", "1989"]
+    },
+    "ar": {
+      "q": "في أي عام سقط جدار برلين؟",
+      "choices": ["1987", "1990", "1988", "1989"]
+    }
   },
   {
     "id": 22,
-    "text": "How many players are there in a basketball team on the court?",
-    "choices": ["4", "5", "6", "7"],
-    "correctIndex": 1,
-    "category": "sports"
+    "category": "sports",
+    "answer_index": 1,
+    "en": {
+      "q": "Which country hosted the 2016 Summer Olympics?",
+      "choices": ["China", "Brazil", "England", "Russia"]
+    },
+    "fr": {
+      "q": "Quel pays a accueilli les Jeux olympiques d'été de 2016 ?",
+      "choices": ["Chine", "Brésil", "Angleterre", "Russie"]
+    },
+    "ar": {
+      "q": "أي بلد استضاف الألعاب الأولمبية الصيفية لعام 2016؟",
+      "choices": ["الصين", "البرازيل", "إنجلترا", "روسيا"]
+    }
   },
   {
     "id": 23,
-    "text": "Who composed the 'Four Seasons'?",
-    "choices": ["Mozart", "Beethoven", "Vivaldi", "Bach"],
-    "correctIndex": 2,
-    "category": "music"
+    "category": "culture",
+    "answer_index": 2,
+    "en": {
+      "q": "What is the traditional dress worn by Japanese women called?",
+      "choices": ["Sari", "Hanbok", "Kimono", "Ao Dai"]
+    },
+    "fr": {
+      "q": "Comment s'appelle la robe traditionnelle portée par les femmes japonaises ?",
+      "choices": ["Sari", "Hanbok", "Kimono", "Ao Dai"]
+    },
+    "ar": {
+      "q": "ما اسم الزي التقليدي الذي ترتديه النساء اليابانيات؟",
+      "choices": ["الساري", "الهانبوك", "الكيمونو", "آو داي"]
+    }
   },
   {
     "id": 24,
-    "text": "What does HTML stand for?",
-    "choices": ["Hyper Text Markup Language", "High Tech Modern Language", "Home Tool Markup Language", "Hyperlinks and Text Markup Language"],
-    "correctIndex": 0,
-    "category": "technology"
+    "category": "general",
+    "answer_index": 0,
+    "en": {
+      "q": "What is the capital of Australia?",
+      "choices": ["Canberra", "Sydney", "Melbourne", "Brisbane"]
+    },
+    "fr": {
+      "q": "Quelle est la capitale de l'Australie ?",
+      "choices": ["Canberra", "Sydney", "Melbourne", "Brisbane"]
+    },
+    "ar": {
+      "q": "ما هي عاصمة أستراليا؟",
+      "choices": ["كانبرا", "سيدني", "ملبورن", "بريسبان"]
+    }
   },
   {
     "id": 25,
-    "text": "Which movie won the Academy Award for Best Picture in 1994?",
-    "choices": ["Pulp Fiction", "The Shawshank Redemption", "Forrest Gump", "The Lion King"],
-    "correctIndex": 2,
-    "category": "movies"
+    "category": "science",
+    "answer_index": 3,
+    "en": {
+      "q": "How many bones are in the adult human body?",
+      "choices": ["186", "216", "196", "206"]
+    },
+    "fr": {
+      "q": "Combien d'os y a-t-il dans le corps humain adulte ?",
+      "choices": ["186", "216", "196", "206"]
+    },
+    "ar": {
+      "q": "كم عدد العظام في جسم الإنسان البالغ؟",
+      "choices": ["186", "216", "196", "206"]
+    }
   },
   {
     "id": 26,
-    "text": "What is the speed of light in vacuum?",
-    "choices": ["299,792 km/s", "300,000 km/s", "299,792,458 m/s", "Both A and C"],
-    "correctIndex": 3,
-    "category": "science"
+    "category": "geography",
+    "answer_index": 1,
+    "en": {
+      "q": "Which country has the most population in the world?",
+      "choices": ["India", "China", "United States", "Indonesia"]
+    },
+    "fr": {
+      "q": "Quel pays a la plus grande population au monde ?",
+      "choices": ["Inde", "Chine", "États-Unis", "Indonésie"]
+    },
+    "ar": {
+      "q": "أي بلد لديه أكبر عدد سكان في العالم؟",
+      "choices": ["الهند", "الصين", "الولايات المتحدة", "إندونيسيا"]
+    }
   },
   {
     "id": 27,
-    "text": "Which ancient wonder of the world still exists today?",
-    "choices": ["Hanging Gardens of Babylon", "Great Pyramid of Giza", "Colossus of Rhodes", "Lighthouse of Alexandria"],
-    "correctIndex": 1,
-    "category": "history"
+    "category": "history",
+    "answer_index": 2,
+    "en": {
+      "q": "Who wrote the famous play 'Romeo and Juliet'?",
+      "choices": ["Charles Dickens", "Mark Twain", "William Shakespeare", "Jane Austen"]
+    },
+    "fr": {
+      "q": "Qui a écrit la célèbre pièce 'Roméo et Juliette' ?",
+      "choices": ["Charles Dickens", "Mark Twain", "William Shakespeare", "Jane Austen"]
+    },
+    "ar": {
+      "q": "من كتب المسرحية الشهيرة 'روميو وجولييت'؟",
+      "choices": ["تشارلز ديكنز", "مارك توين", "ويليام شكسبير", "جين أوستن"]
+    }
   },
   {
     "id": 28,
-    "text": "What is the capital of Australia?",
-    "choices": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
-    "correctIndex": 2,
-    "category": "geography"
+    "category": "sports",
+    "answer_index": 0,
+    "en": {
+      "q": "What is the national sport of Canada?",
+      "choices": ["Lacrosse", "Ice Hockey", "Basketball", "Baseball"]
+    },
+    "fr": {
+      "q": "Quel est le sport national du Canada ?",
+      "choices": ["Lacrosse", "Hockey sur glace", "Basketball", "Baseball"]
+    },
+    "ar": {
+      "q": "ما هي الرياضة الوطنية لكندا؟",
+      "choices": ["اللاكروس", "الهوكي على الجليد", "كرة السلة", "البيسبول"]
+    }
   },
   {
     "id": 29,
-    "text": "Who wrote 'Pride and Prejudice'?",
-    "choices": ["Emily Brontë", "Jane Austen", "Charlotte Brontë", "Mary Shelley"],
-    "correctIndex": 1,
-    "category": "literature"
+    "category": "culture",
+    "answer_index": 3,
+    "en": {
+      "q": "Which musical instrument has 88 keys?",
+      "choices": ["Violin", "Guitar", "Organ", "Piano"]
+    },
+    "fr": {
+      "q": "Quel instrument de musique a 88 touches ?",
+      "choices": ["Violon", "Guitare", "Orgue", "Piano"]
+    },
+    "ar": {
+      "q": "أي آلة موسيقية لها 88 مفتاحاً؟",
+      "choices": ["الكمان", "الغيتار", "الأرغن", "البيانو"]
+    }
   },
   {
     "id": 30,
-    "text": "How many bones are in the adult human body?",
-    "choices": ["186", "206", "226", "246"],
-    "correctIndex": 1,
-    "category": "science"
+    "category": "general",
+    "answer_index": 1,
+    "en": {
+      "q": "What is the smallest country in the world?",
+      "choices": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"]
+    },
+    "fr": {
+      "q": "Quel est le plus petit pays du monde ?",
+      "choices": ["Monaco", "Vatican", "Saint-Marin", "Liechtenstein"]
+    },
+    "ar": {
+      "q": "ما هي أصغر دولة في العالم؟",
+      "choices": ["موناكو", "الفاتيكان", "سان مارينو", "ليختنشتاين"]
+    }
   },
   {
     "id": 31,
-    "text": "Which element has the atomic number 1?",
-    "choices": ["Helium", "Hydrogen", "Lithium", "Carbon"],
-    "correctIndex": 1,
-    "category": "science"
+    "category": "science",
+    "answer_index": 2,
+    "en": {
+      "q": "What is the closest star to Earth?",
+      "choices": ["Proxima Centauri", "Sirius", "The Sun", "Alpha Centauri"]
+    },
+    "fr": {
+      "q": "Quelle est l'étoile la plus proche de la Terre ?",
+      "choices": ["Proxima du Centaure", "Sirius", "Le Soleil", "Alpha du Centaure"]
+    },
+    "ar": {
+      "q": "ما هو أقرب نجم إلى الأرض؟",
+      "choices": ["بروكسيما سنتوري", "الشعرى اليمانية", "الشمس", "ألفا سنتوري"]
+    }
   },
   {
     "id": 32,
-    "text": "What is the largest desert in the world?",
-    "choices": ["Sahara Desert", "Arabian Desert", "Antarctic Desert", "Gobi Desert"],
-    "correctIndex": 2,
-    "category": "geography"
+    "category": "geography",
+    "answer_index": 0,
+    "en": {
+      "q": "Mount Everest is located in which mountain range?",
+      "choices": ["Himalayas", "Andes", "Alps", "Rockies"]
+    },
+    "fr": {
+      "q": "Dans quelle chaîne de montagnes se trouve le mont Everest ?",
+      "choices": ["Himalaya", "Andes", "Alpes", "Rocheuses"]
+    },
+    "ar": {
+      "q": "في أي سلسلة جبال يقع جبل إيفرست؟",
+      "choices": ["جبال الهيمالايا", "جبال الأنديز", "جبال الألب", "جبال روكي"]
+    }
   },
   {
     "id": 33,
-    "text": "Who invented the telephone?",
-    "choices": ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Guglielmo Marconi"],
-    "correctIndex": 2,
-    "category": "history"
+    "category": "history",
+    "answer_index": 3,
+    "en": {
+      "q": "Which ancient wonder of the world still stands today?",
+      "choices": ["Colossus of Rhodes", "Hanging Gardens of Babylon", "Lighthouse of Alexandria", "Great Pyramid of Giza"]
+    },
+    "fr": {
+      "q": "Quelle merveille du monde antique existe encore aujourd'hui ?",
+      "choices": ["Colosse de Rhodes", "Jardins suspendus de Babylone", "Phare d'Alexandrie", "Grande Pyramide de Gizeh"]
+    },
+    "ar": {
+      "q": "أي من عجائب الدنيا السبع القديمة لا تزال قائمة اليوم؟",
+      "choices": ["تمثال رودس", "حدائق بابل المعلقة", "منارة الإسكندرية", "هرم خوفو الأكبر"]
+    }
   },
   {
     "id": 34,
-    "text": "Which sport uses a shuttlecock?",
-    "choices": ["Tennis", "Squash", "Badminton", "Table Tennis"],
-    "correctIndex": 2,
-    "category": "sports"
+    "category": "sports",
+    "answer_index": 1,
+    "en": {
+      "q": "In tennis, what is a score of zero called?",
+      "choices": ["Nil", "Love", "Zero", "Fault"]
+    },
+    "fr": {
+      "q": "Au tennis, comment appelle-t-on un score de zéro ?",
+      "choices": ["Nil", "Love", "Zéro", "Faute"]
+    },
+    "ar": {
+      "q": "في التنس، ماذا يسمى النتيجة صفر؟",
+      "choices": ["نيل", "لوف", "صفر", "فولت"]
+    }
   },
   {
     "id": 35,
-    "text": "What is the main ingredient in guacamole?",
-    "choices": ["Tomato", "Avocado", "Pepper", "Onion"],
-    "correctIndex": 1,
-    "category": "general"
+    "category": "culture",
+    "answer_index": 2,
+    "en": {
+      "q": "Which famous artist cut off his own ear?",
+      "choices": ["Pablo Picasso", "Claude Monet", "Vincent van Gogh", "Salvador Dali"]
+    },
+    "fr": {
+      "q": "Quel artiste célèbre s'est coupé l'oreille ?",
+      "choices": ["Pablo Picasso", "Claude Monet", "Vincent van Gogh", "Salvador Dali"]
+    },
+    "ar": {
+      "q": "أي فنان شهير قطع أذنه؟",
+      "choices": ["بابلو بيكاسو", "كلود مونيه", "فينسنت فان غوخ", "سلفادور دالي"]
+    }
   },
   {
     "id": 36,
-    "text": "Who directed 'The Godfather'?",
-    "choices": ["Martin Scorsese", "Francis Ford Coppola", "Steven Spielberg", "Stanley Kubrick"],
-    "correctIndex": 1,
-    "category": "movies"
+    "category": "general",
+    "answer_index": 0,
+    "en": {
+      "q": "What is the currency of the United Kingdom?",
+      "choices": ["Pound Sterling", "Euro", "Dollar", "Franc"]
+    },
+    "fr": {
+      "q": "Quelle est la monnaie du Royaume-Uni ?",
+      "choices": ["Livre sterling", "Euro", "Dollar", "Franc"]
+    },
+    "ar": {
+      "q": "ما هي عملة المملكة المتحدة؟",
+      "choices": ["الجنيه الإسترليني", "اليورو", "الدولار", "الفرنك"]
+    }
   },
   {
     "id": 37,
-    "text": "What does USB stand for?",
-    "choices": ["Universal Serial Bus", "United System Bus", "Universal System Base", "Unified Serial Base"],
-    "correctIndex": 0,
-    "category": "technology"
+    "category": "science",
+    "answer_index": 3,
+    "en": {
+      "q": "What is H2O commonly known as?",
+      "choices": ["Oxygen", "Hydrogen", "Carbon Dioxide", "Water"]
+    },
+    "fr": {
+      "q": "Comment appelle-t-on communément H2O ?",
+      "choices": ["Oxygène", "Hydrogène", "Dioxyde de carbone", "Eau"]
+    },
+    "ar": {
+      "q": "ما المعروف عادة باسم H2O؟",
+      "choices": ["الأكسجين", "الهيدروجين", "ثاني أكسيد الكربون", "الماء"]
+    }
   },
   {
     "id": 38,
-    "text": "Which classical composer became deaf later in life?",
-    "choices": ["Mozart", "Bach", "Beethoven", "Chopin"],
-    "correctIndex": 2,
-    "category": "music"
-  },
-  {
+    "category": "geography",
+    "answer_index": 1,
+    "en": {
+      "q": "Which continent is the Sahara Desert located on?",
+      "choices": ["Asia", "Africa", "Australia", "South America"]
+    },
+    "fr": {
+      "q": "Sur quel continent se trouve le désert du Sahara ?",
+      "choices": ["Asie", "Afrique", "Australie", "Amérique du Sud"]
+    },
+    "ar": {
+      "q": "في أي قارة تقع الصحراء الكبرى؟",
+      "choices": ["آسيا", "أفريقيا", "أستراليا", "أمريكا الجنوبية"]
+    }
+  },{
     "id": 39,
-    "text": "What is the freezing point of water in Celsius?",
-    "choices": ["-1°C", "0°C", "1°C", "32°C"],
-    "correctIndex": 1,
-    "category": "science"
-  },
-  {
+    "category": "history",
+    "answer_index": 2,
+    "en": {
+      "q": "Who invented the telephone?",
+      "choices": ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Guglielmo Marconi"]
+    },
+    "fr": {
+      "q": "Qui a inventé le téléphone ?",
+      "choices": ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Guglielmo Marconi"]
+    },
+    "ar": {
+      "q": "من اخترع الهاتف؟",
+      "choices": ["توماس إديسون", "نيكولا تيسلا", "ألكسندر غراهام بيل", "غولييلمو ماركوني"]
+    }
+  },{
     "id": 40,
-    "text": "Who wrote 'To Kill a Mockingbird'?",
-    "choices": ["Harper Lee", "John Steinbeck", "F. Scott Fitzgerald", "Ernest Hemingway"],
-    "correctIndex": 0,
-    "category": "literature"
+    "category": "sports",
+    "answer_index": 0,
+    "en": {
+      "q": "Which country won the FIFA World Cup in 2018?",
+      "choices": ["France", "Croatia", "Brazil", "Germany"]
+    },
+    "fr": {
+      "q": "Quel pays a remporté la Coupe du Monde de la FIFA en 2018 ?",
+      "choices": ["France", "Croatie", "Brésil", "Allemagne"]
+    },
+    "ar": {
+      "q": "أي بلد فاز بكأس العالم لكرة القدم عام 2018؟",
+      "choices": ["فرنسا", "كرواتيا", "البرازيل", "ألمانيا"]
+    }
   },
   {
     "id": 41,
-    "text": "Which country hosted the 2016 Summer Olympics?",
-    "choices": ["China", "United Kingdom", "Brazil", "Russia"],
-    "correctIndex": 2,
-    "category": "sports"
+    "category": "culture",
+    "answer_index": 3,
+    "en": {
+      "q": "What is the most widely spoken language in the world?",
+      "choices": ["Spanish", "English", "Hindi", "Mandarin Chinese"]
+    },
+    "fr": {
+      "q": "Quelle est la langue la plus parlée au monde ?",
+      "choices": ["Espagnol", "Anglais", "Hindi", "Chinois mandarin"]
+    },
+    "ar": {
+      "q": "ما هي اللغة الأكثر انتشاراً في العالم؟",
+      "choices": ["الإسبانية", "الإنجليزية", "الهندية", "الصينية الماندرين"]
+    }
   },
   {
     "id": 42,
-    "text": "What is the smallest country in the world?",
-    "choices": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
-    "correctIndex": 1,
-    "category": "geography"
+    "category": "general",
+    "answer_index": 1,
+    "en": {
+      "q": "How many days are in a leap year?",
+      "choices": ["365", "366", "364", "367"]
+    },
+    "fr": {
+      "q": "Combien de jours y a-t-il dans une année bissextile ?",
+      "choices": ["365", "366", "364", "367"]
+    },
+    "ar": {
+      "q": "كم عدد الأيام في السنة الكبيسة؟",
+      "choices": ["365", "366", "364", "367"]
+    }
   },
   {
     "id": 43,
-    "text": "In which year did World War I begin?",
-    "choices": ["1912", "1914", "1916", "1918"],
-    "correctIndex": 1,
-    "category": "history"
+    "category": "science",
+    "answer_index": 2,
+    "en": {
+      "q": "What is the process by which plants make their food called?",
+      "choices": ["Respiration", "Digestion", "Photosynthesis", "Fermentation"]
+    },
+    "fr": {
+      "q": "Comment s'appelle le processus par lequel les plantes fabriquent leur nourriture ?",
+      "choices": ["Respiration", "Digestion", "Photosynthèse", "Fermentation"]
+    },
+    "ar": {
+      "q": "ما اسم العملية التي تصنع بها النباتات غذاءها؟",
+      "choices": ["التنفس", "الهضم", "التمثيل الضوئي", "التخمير"]
+    }
   },
   {
     "id": 44,
-    "text": "What is the largest mammal in the world?",
-    "choices": ["African Elephant", "Blue Whale", "Giraffe", "Polar Bear"],
-    "correctIndex": 1,
-    "category": "science"
+    "category": "geography",
+    "answer_index": 0,
+    "en": {
+      "q": "Which is the smallest ocean in the world?",
+      "choices": ["Arctic Ocean", "Indian Ocean", "Southern Ocean", "Atlantic Ocean"]
+    },
+    "fr": {
+      "q": "Quel est le plus petit océan du monde ?",
+      "choices": ["Océan Arctique", "Océan Indien", "Océan Austral", "Océan Atlantique"]
+    },
+    "ar": {
+      "q": "ما هو أصغر محيط في العالم؟",
+      "choices": ["المحيط المتجمد الشمالي", "المحيط الهندي", "المحيط الجنوبي", "المحيط الأطلسي"]
+    }
   },
   {
     "id": 45,
-    "text": "Which programming language was developed by James Gosling at Sun Microsystems?",
-    "choices": ["Python", "C++", "Java", "Ruby"],
-    "correctIndex": 2,
-    "category": "technology"
+    "category": "history",
+    "answer_index": 3,
+    "en": {
+      "q": "What was the name of the ship on which the Pilgrims traveled to America?",
+      "choices": ["Santa Maria", "HMS Victory", "Golden Hind", "Mayflower"]
+    },
+    "fr": {
+      "q": "Quel était le nom du navire sur lequel les pèlerins ont voyagé vers l'Amérique ?",
+      "choices": ["Santa Maria", "HMS Victory", "Golden Hind", "Mayflower"]
+    },
+    "ar": {
+      "q": "ما اسم السفينة التي سافر عليها الحجاج إلى أمريكا؟",
+      "choices": ["سانتا ماريا", "إتش إم إس فيكتوري", "غولدن هايند", "ماي فلاور"]
+    }
   },
   {
     "id": 46,
-    "text": "Who starred as Iron Man in the Marvel Cinematic Universe?",
-    "choices": ["Chris Evans", "Chris Hemsworth", "Robert Downey Jr.", "Mark Ruffalo"],
-    "correctIndex": 2,
-    "category": "movies"
+    "category": "sports",
+    "answer_index": 1,
+    "en": {
+      "q": "What is the maximum number of players in a baseball team on the field?",
+      "choices": ["8", "9", "10", "11"]
+    },
+    "fr": {
+      "q": "Quel est le nombre maximum de joueurs dans une équipe de baseball sur le terrain ?",
+      "choices": ["8", "9", "10", "11"]
+    },
+    "ar": {
+      "q": "ما هو العدد الأقصى للاعبين في فريق البيسبول على الملعب؟",
+      "choices": ["8", "9", "10", "11"]
+    }
   },
   {
     "id": 47,
-    "text": "Which instrument has 88 keys?",
-    "choices": ["Organ", "Piano", "Accordion", "Harpsichord"],
-    "correctIndex": 1,
-    "category": "music"
+    "category": "culture",
+    "answer_index": 2,
+    "en": {
+      "q": "Which Italian city is famous for its canals?",
+      "choices": ["Rome", "Milan", "Venice", "Florence"]
+    },
+    "fr": {
+      "q": "Quelle ville italienne est célèbre pour ses canaux ?",
+      "choices": ["Rome", "Milan", "Venise", "Florence"]
+    },
+    "ar": {
+      "q": "أي مدينة إيطالية مشهورة بقنواتها المائية؟",
+      "choices": ["روما", "ميلانو", "البندقية", "فلورنسا"]
+    }
   },
   {
     "id": 48,
-    "text": "What is the chemical formula for water?",
-    "choices": ["H2O", "CO2", "O2", "H2O2"],
-    "correctIndex": 0,
-    "category": "science"
+    "category": "general",
+    "answer_index": 0,
+    "en": {
+      "q": "What is the primary ingredient in guacamole?",
+      "choices": ["Avocado", "Tomato", "Pepper", "Onion"]
+    },
+    "fr": {
+      "q": "Quel est l'ingrédient principal du guacamole ?",
+      "choices": ["Avocat", "Tomate", "Poivron", "Oignon"]
+    },
+    "ar": {
+      "q": "ما هو المكون الأساسي في الغواكامولي؟",
+      "choices": ["الأفوكادو", "الطماطم", "الفلفل", "البصل"]
+    }
   },
   {
     "id": 49,
-    "text": "Who wrote 'The Great Gatsby'?",
-    "choices": ["Ernest Hemingway", "F. Scott Fitzgerald", "John Steinbeck", "William Faulkner"],
-    "correctIndex": 1,
-    "category": "literature"
+    "category": "science",
+    "answer_index": 3,
+    "en": {
+      "q": "What is the largest organ in the human body?",
+      "choices": ["Heart", "Brain", "Liver", "Skin"]
+    },
+    "fr": {
+      "q": "Quel est le plus grand organe du corps humain ?",
+      "choices": ["Cœur", "Cerveau", "Foie", "Peau"]
+    },
+    "ar": {
+      "q": "ما هو أكبر عضو في جسم الإنسان؟",
+      "choices": ["القلب", "الدماغ", "الكبد", "الجلد"]
+    }
   },
   {
     "id": 50,
-    "text": "What is the tallest mountain in the world?",
-    "choices": ["K2", "Kangchenjunga", "Mount Everest", "Lhotse"],
-    "correctIndex": 2,
-    "category": "geography"
-  },
-  {
-    "id": 51,
-    "text": "Who discovered penicillin?",
-    "choices": ["Louis Pasteur", "Alexander Fleming", "Marie Curie", "Jonas Salk"],
-    "correctIndex": 1,
-    "category": "history"
-  },
-  {
-    "id": 52,
-    "text": "How many sides does a hexagon have?",
-    "choices": ["5", "6", "7", "8"],
-    "correctIndex": 1,
-    "category": "general"
-  },
-  {
-    "id": 53,
-    "text": "Which sport is known as 'the beautiful game'?",
-    "choices": ["Basketball", "Football (Soccer)", "Tennis", "Rugby"],
-    "correctIndex": 1,
-    "category": "sports"
-  },
-  {
-    "id": 54,
-    "text": "What does RAM stand for in computing?",
-    "choices": ["Random Access Memory", "Rapid Application Management", "Read Access Module", "Runtime Application Memory"],
-    "correctIndex": 0,
-    "category": "technology"
-  },
-  {
-    "id": 55,
-    "text": "Who directed 'Jurassic Park'?",
-    "choices": ["George Lucas", "Steven Spielberg", "James Cameron", "Ridley Scott"],
-    "correctIndex": 1,
-    "category": "movies"
-  },
-  {
-    "id": 56,
-    "text": "Which Beatles member was murdered in 1980?",
-    "choices": ["Paul McCartney", "George Harrison", "John Lennon", "Ringo Starr"],
-    "correctIndex": 2,
-    "category": "music"
-  },
-  {
-    "id": 57,
-    "text": "What is the boiling point of water in Celsius at sea level?",
-    "choices": ["90°C", "95°C", "100°C", "105°C"],
-    "correctIndex": 2,
-    "category": "science"
-  },
-  {
-    "id": 58,
-    "text": "Who wrote 'Hamlet'?",
-    "choices": ["Christopher Marlowe", "William Shakespeare", "Ben Jonson", "John Webster"],
-    "correctIndex": 1,
-    "category": "literature"
-  },
-  {
-    "id": 59,
-    "text": "Which continent is the Sahara Desert located on?",
-    "choices": ["Asia", "Africa", "Australia", "South America"],
-    "correctIndex": 1,
-    "category": "geography"
-  },
-  {
-    "id": 60,
-    "text": "In which year did the Berlin Wall fall?",
-    "choices": ["1987", "1989", "1991", "1993"],
-    "correctIndex": 1,
-    "category": "history"
-  },
-  {
-    "id": 61,
-    "text": "What is the largest organ in the human body?",
-    "choices": ["Liver", "Brain", "Heart", "Skin"],
-    "correctIndex": 3,
-    "category": "science"
-  },
-  {
-    "id": 62,
-    "text": "Which company created the iPhone?",
-    "choices": ["Samsung", "Google", "Apple", "Microsoft"],
-    "correctIndex": 2,
-    "category": "technology"
-  },
-  {
-    "id": 63,
-    "text": "How many rings are on the Olympic flag?",
-    "choices": ["4", "5", "6", "7"],
-    "correctIndex": 1,
-    "category": "sports"
-  },
-  {
-    "id": 64,
-    "text": "Who played Jack Dawson in 'Titanic'?",
-    "choices": ["Brad Pitt", "Leonardo DiCaprio", "Tom Cruise", "Johnny Depp"],
-    "correctIndex": 1,
-    "category": "movies"
-  },
-  {
-    "id": 65,
-    "text": "Which band released the album 'Dark Side of the Moon'?",
-    "choices": ["Led Zeppelin", "The Beatles", "Pink Floyd", "The Rolling Stones"],
-    "correctIndex": 2,
-    "category": "music"
-  },
-  {
-    "id": 66,
-    "text": "What is the square root of 144?",
-    "choices": ["10", "11", "12", "13"],
-    "correctIndex": 2,
-    "category": "general"
-  },
-  {
-    "id": 67,
-    "text": "Who wrote 'The Catcher in the Rye'?",
-    "choices": ["J.D. Salinger", "Jack Kerouac", "Ernest Hemingway", "Kurt Vonnegut"],
-    "correctIndex": 0,
-    "category": "literature"
-  },
-  {
-    "id": 68,
-    "text": "What is the capital of Canada?",
-    "choices": ["Toronto", "Montreal", "Vancouver", "Ottawa"],
-    "correctIndex": 3,
-    "category": "geography"
-  },
-  {
-    "id": 69,
-    "text": "Who was the first person to walk on the moon?",
-    "choices": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "John Glenn"],
-    "correctIndex": 1,
-    "category": "history"
-  },
-  {
-    "id": 70,
-    "text": "What is the chemical symbol for iron?",
-    "choices": ["Ir", "Fe", "In", "Fr"],
-    "correctIndex": 1,
-    "category": "science"
-  },
-  {
-    "id": 71,
-    "text": "Which operating system is developed by Microsoft?",
-    "choices": ["macOS", "Linux", "Windows", "Unix"],
-    "correctIndex": 2,
-    "category": "technology"
-  },
-  {
-    "id": 72,
-    "text": "In which sport would you perform a slam dunk?",
-    "choices": ["Volleyball", "Basketball", "Tennis", "Handball"],
-    "correctIndex": 1,
-    "category": "sports"
-  },
-  {
-    "id": 73,
-    "text": "Who directed 'Inception'?",
-    "choices": ["Quentin Tarantino", "Christopher Nolan", "David Fincher", "Denis Villeneuve"],
-    "correctIndex": 1,
-    "category": "movies"
-  },
-  {
-    "id": 74,
-    "text": "Which artist is famous for cutting off his own ear?",
-    "choices": ["Pablo Picasso", "Vincent van Gogh", "Claude Monet", "Salvador Dalí"],
-    "correctIndex": 1,
-    "category": "general"
-  },
-  {
-    "id": 75,
-    "text": "What is the name of the longest river in South America?",
-    "choices": ["Paraná River", "Orinoco River", "Amazon River", "São Francisco River"],
-    "correctIndex": 2,
-    "category": "geography"
-  },
-  {
-    "id": 76,
-    "text": "Who invented the light bulb?",
-    "choices": ["Nikola Tesla", "Thomas Edison", "Alexander Graham Bell", "Benjamin Franklin"],
-    "correctIndex": 1,
-    "category": "history"
-  },
-  {
-    "id": 77,
-    "text": "How many teeth does an adult human typically have?",
-    "choices": ["28", "30", "32", "34"],
-    "correctIndex": 2,
-    "category": "science"
-  },
-  {
-    "id": 78,
-    "text": "What does WWW stand for?",
-    "choices": ["World Wide Web", "World Web Width", "Wide World Web", "Web World Wide"],
-    "correctIndex": 0,
-    "category": "technology"
-  },
-  {
-    "id": 79,
-    "text": "Who wrote 'The Lord of the Rings'?",
-    "choices": ["C.S. Lewis", "J.R.R. Tolkien", "George R.R. Martin", "Terry Pratchett"],
-    "correctIndex": 1,
-    "category": "literature"
-  },
-  {
-    "id": 80,
-    "text": "Which instrument is Yo-Yo Ma famous for playing?",
-    "choices": ["Violin", "Piano", "Cello", "Flute"],
-    "correctIndex": 2,
-    "category": "music"
-  },
-  {
-    "id": 81,
-    "text": "What is the largest island in the world?",
-    "choices": ["Madagascar", "Greenland", "New Guinea", "Borneo"],
-    "correctIndex": 1,
-    "category": "geography"
-  },
-  {
-    "id": 82,
-    "text": "In which year did the first iPhone launch?",
-    "choices": ["2005", "2006", "2007", "2008"],
-    "correctIndex": 2,
-    "category": "technology"
-  },
-  {
-    "id": 83,
-    "text": "Which football player has won the most Ballon d'Or awards?",
-    "choices": ["Cristiano Ronaldo", "Lionel Messi", "Michel Platini", "Johan Cruyff"],
-    "correctIndex": 1,
-    "category": "sports"
-  },
-  {
-    "id": 84,
-    "text": "Who directed 'Pulp Fiction'?",
-    "choices": ["Martin Scorsese", "Quentin Tarantino", "Coen Brothers", "Paul Thomas Anderson"],
-    "correctIndex": 1,
-    "category": "movies"
-  },
-  {
-    "id": 85,
-    "text": "What gas do plants absorb from the atmosphere?",
-    "choices": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
-    "correctIndex": 2,
-    "category": "science"
-  },
-  {
-    "id": 86,
-    "text": "Who wrote 'Moby-Dick'?",
-    "choices": ["Nathaniel Hawthorne", "Herman Melville", "Edgar Allan Poe", "Mark Twain"],
-    "correctIndex": 1,
-    "category": "literature"
-  },
-  {
-    "id": 87,
-    "text": "What is the capital of Spain?",
-    "choices": ["Barcelona", "Madrid", "Valencia", "Seville"],
-    "correctIndex": 1,
-    "category": "geography"
-  },
-  {
-    "id": 88,
-    "text": "Who was the first female Prime Minister of the United Kingdom?",
-    "choices": ["Theresa May", "Margaret Thatcher", "Angela Merkel", "Indira Gandhi"],
-    "correctIndex": 1,
-    "category": "history"
-  },
-  {
-    "id": 89,
-    "text": "How many hours are in a day?",
-    "choices": ["12", "20", "24", "48"],
-    "correctIndex": 2,
-    "category": "general"
-  },
-  {
-    "id": 90,
-    "text": "Which social media platform uses a bird as its logo?",
-    "choices": ["Facebook", "Instagram", "Twitter", "Snapchat"],
-    "correctIndex": 2,
-    "category": "technology"
-  },
-  {
-    "id": 91,
-    "text": "In tennis, what is a score of zero called?",
-    "choices": ["Nil", "Love", "Zero", "Nought"],
-    "correctIndex": 1,
-    "category": "sports"
-  },
-  {
-    "id": 92,
-    "text": "Who composed 'The Magic Flute'?",
-    "choices": ["Beethoven", "Bach", "Mozart", "Haydn"],
-    "correctIndex": 2,
-    "category": "music"
-  },
-  {
-    "id": 93,
-    "text": "What is the smallest planet in our solar system?",
-    "choices": ["Mars", "Venus", "Mercury", "Pluto"],
-    "correctIndex": 2,
-    "category": "science"
-  },
-  {
-    "id": 94,
-    "text": "Who wrote 'The Odyssey'?",
-    "choices": ["Sophocles", "Homer", "Virgil", "Euripides"],
-    "correctIndex": 1,
-    "category": "literature"
-  },
-  {
-    "id": 95,
-    "text": "Which country has the most time zones?",
-    "choices": ["Russia", "United States", "France", "China"],
-    "correctIndex": 2,
-    "category": "geography"
-  },
-  {
-    "id": 96,
-    "text": "In which year did the American Civil War end?",
-    "choices": ["1863", "1864", "1865", "1866"],
-    "correctIndex": 2,
-    "category": "history"
-  },
-  {
-    "id": 97,
-    "text": "What is the main component of the sun?",
-    "choices": ["Helium", "Hydrogen", "Oxygen", "Carbon"],
-    "correctIndex": 1,
-    "category": "science"
-  },
-  {
-    "id": 98,
-    "text": "Which company makes the Galaxy smartphone?",
-    "choices": ["Apple", "Huawei", "Samsung", "Google"],
-    "correctIndex": 2,
-    "category": "technology"
-  },
-  {
-    "id": 99,
-    "text": "How many players are on a soccer team on the field?",
-    "choices": ["9", "10", "11", "12"],
-    "correctIndex": 2,
-    "category": "sports"
-  },
-  {
-    "id": 100,
-    "text": "Who played Forrest Gump in the movie of the same name?",
-    "choices": ["Tom Cruise", "Tom Hanks", "Brad Pitt", "Matt Damon"],
-    "correctIndex": 1,
-    "category": "movies"
-  },
-  {
-    "id": 101,
-    "text": "What is the currency of the United Kingdom?",
-    "choices": ["Euro", "Dollar", "Pound Sterling", "Franc"],
-    "correctIndex": 2,
-    "category": "general"
-  },
-  {
-    "id": 102,
-    "text": "Who painted 'Starry Night'?",
-    "choices": ["Claude Monet", "Vincent van Gogh", "Pablo Picasso", "Salvador Dalí"],
-    "correctIndex": 1,
-    "category": "general"
-  },
-  {
-    "id": 103,
-    "text": "What is the capital of Italy?",
-    "choices": ["Venice", "Milan", "Rome", "Florence"],
-    "correctIndex": 2,
-    "category": "geography"
-  },
-  {
-    "id": 104,
-    "text": "Who discovered the theory of relativity?",
-    "choices": ["Isaac Newton", "Albert Einstein", "Niels Bohr", "Stephen Hawking"],
-    "correctIndex": 1,
-    "category": "science"
-  },
-  {
-    "id": 105,
-    "text": "What does PDF stand for?",
-    "choices": ["Portable Document Format", "Personal Data File", "Public Document Format", "Printed Data File"],
-    "correctIndex": 0,
-    "category": "technology"
-  },
-  {
-    "id": 106,
-    "text": "Who wrote 'Harry Potter' series?",
-    "choices": ["J.R.R. Tolkien", "C.S. Lewis", "J.K. Rowling", "Roald Dahl"],
-    "correctIndex": 2,
-    "category": "literature"
-  },
-  {
-    "id": 107,
-    "text": "Which band was Freddie Mercury the lead singer of?",
-    "choices": ["The Beatles", "Led Zeppelin", "Queen", "The Rolling Stones"],
-    "correctIndex": 2,
-    "category": "music"
-  },
-  {
-    "id": 108,
-    "text": "How many continents are there?",
-    "choices": ["5", "6", "7", "8"],
-    "correctIndex": 2,
-    "category": "geography"
-  },
-  {
-    "id": 109,
-    "text": "Who was the first Roman Emperor?",
-    "choices": ["Julius Caesar", "Augustus", "Nero", "Caligula"],
-    "correctIndex": 1,
-    "category": "history"
-  },
-  {
-    "id": 110,
-    "text": "What is the hardest rock?",
-    "choices": ["Granite", "Marble", "Diamond", "Quartz"],
-    "correctIndex": 2,
-    "category": "science"
-  },
-  {
-    "id": 111,
-    "text": "Which sport is associated with the Super Bowl?",
-    "choices": ["Baseball", "Basketball", "American Football", "Ice Hockey"],
-    "correctIndex": 2,
-    "category": "sports"
-  },
-  {
-    "id": 112,
-    "text": "Who directed 'The Dark Knight'?",
-    "choices": ["Zack Snyder", "Christopher Nolan", "Tim Burton", "Joel Schumacher"],
-    "correctIndex": 1,
-    "category": "movies"
-  },
-  {
-    "id": 113,
-    "text": "What is the chemical symbol for sodium?",
-    "choices": ["So", "Sd", "Na", "S"],
-    "correctIndex": 2,
-    "category": "science"
-  },
-  {
-    "id": 114,
-    "text": "Who wrote 'The Divine Comedy'?",
-    "choices": ["Dante Alighieri", "Giovanni Boccaccio", "Petrarch", "Geoffrey Chaucer"],
-    "correctIndex": 0,
-    "category": "literature"
+    "category": "geography",
+    "answer_index": 1,
+    "en": {
+      "q": "What is the capital of Egypt?",
+      "choices": ["Alexandria", "Cairo", "Giza", "Luxor"]
+    },
+    "fr": {
+      "q": "Quelle est la capitale de l'Égypte ?",
+      "choices": ["Alexandrie", "Le Caire", "Gizeh", "Louxor"]
+    },
+    "ar": {
+      "q": "ما هي عاصمة مصر؟",
+      "choices": ["الإسكندرية", "القاهرة", "الجيزة", "الأقصر"]
+    }
   }
 ]
