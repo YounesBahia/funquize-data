@@ -1,0 +1,782 @@
+[
+    {
+        "id": 1,
+        "category": "history",
+        "answer_index": 0,
+        "difficulty": "easy",
+        "en": {
+            "q": "In 1969, Neil Armstrong became the first person to do what?",
+            "choices": [
+                "Walk on the Moon",
+                "Orbit the Earth",
+                "Reach the South Pole",
+                "Break the sound barrier"
+            ],
+            "learn": "The Space Race was a key part of the Cold War. NASA's Apollo program aimed to achieve a crewed lunar landing.",
+            "explain": "Correct! Neil Armstrong's famous 'one small step' occurred during the Apollo 11 mission on July 20, 1969."
+        },
+        "fr": {
+            "q": "En 1969, Neil Armstrong est devenu la première personne à faire quoi ?",
+            "choices": [
+                "Marcher sur la Lune",
+                "Orbiter autour de la Terre",
+                "Atteindre le pôle Sud",
+                "Franchir le mur du son"
+            ],
+            "learn": "La course à l'espace était un aspect clé de la Guerre froide. Le programme Apollo de la NASA visait un alunissage habité.",
+            "explain": "Correct ! Le fameux 'petit pas' de Neil Armstrong a eu lieu lors de la mission Apollo 11, le 20 juillet 1969."
+        },
+        "ar": {
+            "q": "في عام 1969، أصبح نيل أرمسترونغ أول شخص يفعل ماذا؟",
+            "choices": [
+                "المشي على سطح القمر",
+                "الدوران حول الأرض",
+                "الوصول إلى القطب الجنوبي",
+                "كسر حاجز الصوت"
+            ],
+            "learn": "كان سباق الفضاء جزءًا رئيسيًا من الحرب الباردة. هدف برنامج أبولو التابع لناسا إلى تحقيق هبوط مأهول على القمر.",
+            "explain": "صحيح! حدثت خطوة نيل أرمسترونغ الشهيرة 'خطوة واحدة صغيرة' خلال مهمة أبولو 11 في 20 يوليو 1969."
+        }
+    },
+    {
+        "id": 2,
+        "category": "math",
+        "answer_index": 3,
+        "difficulty": "easy",
+        "en": {
+            "q": "What is the next number in this sequence? 2, 4, 8, 16, ...?",
+            "choices": [
+                "18",
+                "24",
+                "30",
+                "32"
+            ],
+            "learn": "Look for a pattern. Each number is multiplied by the same value to get the next one.",
+            "explain": "Correct! This is a geometric sequence where each term is multiplied by 2. 16 x 2 = 32."
+        },
+        "fr": {
+            "q": "Quel est le nombre suivant dans cette séquence ? 2, 4, 8, 16, ... ?",
+            "choices": [
+                "18",
+                "24",
+                "30",
+                "32"
+            ],
+            "learn": "Cherchez un motif. Chaque nombre est multiplié par la même valeur pour obtenir le suivant.",
+            "explain": "Correct ! C'est une suite géométrique où chaque terme est multiplié par 2. 16 x 2 = 32."
+        },
+        "ar": {
+            "q": "ما هو الرقم التالي في هذه المتتالية؟ 16 ,8 ,4 ,2 ...؟",
+            "choices": [
+                "18",
+                "24",
+                "30",
+                "32"
+            ],
+            "learn": "ابحث عن نمط. كل رقم يُضرب في نفس القيمة للحصول على الرقم التالي.",
+            "explain": "صحيح! هذه متتالية هندسية حيث كل حد يضرب في 2. 16 × 2 = 32."
+        }
+    },
+    {
+        "id": 3,
+        "category": "geography",
+        "answer_index": 1,
+        "difficulty": "medium",
+        "en": {
+            "q": "Which of these countries is NOT part of the Scandinavian Peninsula?",
+            "choices": [
+                "Norway",
+                "Finland",
+                "Sweden",
+                "All are part of it"
+            ],
+            "learn": "Scandinavia is a region in Northern Europe. It typically includes Norway, Sweden, and Denmark. The Scandinavian Peninsula is a specific geographical feature.",
+            "explain": "Correct! Finland is considered Nordic and is culturally linked, but it is not located on the Scandinavian Peninsula, which is occupied by Norway and Sweden."
+        },
+        "fr": {
+            "q": "Lequel de ces pays ne fait PAS partie de la péninsule Scandinave ?",
+            "choices": [
+                "Norvège",
+                "Finlande",
+                "Suède",
+                "Tous en font partie"
+            ],
+            "learn": "La Scandinavie est une région d'Europe du Nord. Elle inclut typiquement la Norvège, la Suède et le Danemark. La péninsule Scandinave est un élément géographique précis.",
+            "explain": "Correct ! La Finlande est considérée comme nordique et culturellement liée, mais elle n'est pas située sur la péninsule Scandinave, occupée par la Norvège et la Suède."
+        },
+        "ar": {
+            "q": "أي من هذه الدول ليست جزءًا من شبه الجزيرة الاسكندنافية؟",
+            "choices": [
+                "النرويج",
+                "فنلندا",
+                "السويد",
+                "جميعها جزء منها"
+            ],
+            "learn": "اسكندنافيا هي منطقة في شمال أوروبا. وتشمل عادة النرويج والسويد والدنمارك. شبه الجزيرة الاسكندنافية هي ميزة جغرافية محددة.",
+            "explain": "صحيح! تعتبر فنلندا دولة شمالية ومرتبطة ثقافيًا، لكنها لا تقع على شبه الجزيرة الاسكندنافية، التي تشغلها النرويج والسويد."
+        }
+    },
+    {
+        "id": 4,
+        "category": "science",
+        "answer_index": 2,
+        "difficulty": "easy",
+        "en": {
+            "q": "What is the chemical symbol for the element Gold?",
+            "choices": [
+                "Go",
+                "Gd",
+                "Au",
+                "Ag"
+            ],
+            "learn": "Chemical symbols often come from Latin or Greek names for the elements, not the modern English name.",
+            "explain": "Correct! Au comes from 'Aurum', the Latin word for gold. Ag is for Silver (Argentum)."
+        },
+        "fr": {
+            "q": "Quel est le symbole chimique de l'élément Or ?",
+            "choices": [
+                "Go",
+                "Gd",
+                "Au",
+                "Ag"
+            ],
+            "learn": "Les symboles chimiques viennent souvent des noms latins ou grecs des éléments, pas des noms modernes.",
+            "explain": "Correct ! Au vient de 'Aurum', le mot latin pour l'or. Ag est pour l'Argent (Argentum)."
+        },
+        "ar": {
+            "q": "ما هو الرمز الكيميائي لعنصر الذهب؟",
+            "choices": [
+                "Go",
+                "Gd",
+                "Au",
+                "Ag"
+            ],
+            "learn": "غالبًا ما تأتي الرموز الكيميائية من الأسماء اللاتينية أو اليونانية للعناصر، وليس من الاسم الإنجليزي الحديث.",
+            "explain": "صحيح! Au يأتي من 'أوروم'، الكلمة اللاتينية للذهب. Ag هو للفضة (أرجنتوم)."
+        }
+    },
+    {
+        "id": 5,
+        "category": "general_knowledge",
+        "answer_index": 3,
+        "difficulty": "easy",
+        "en": {
+            "q": "Which company developed the iPhone and Mac computers?",
+            "choices": [
+                "Microsoft",
+                "Samsung",
+                "Google",
+                "Apple"
+            ],
+            "learn": "This tech giant, founded in a garage, revolutionized personal computing, music, and phones with iconic designs.",
+            "explain": "Correct! Apple Inc., founded by Steve Jobs, Steve Wozniak, and Ronald Wayne, is the creator of these products."
+        },
+        "fr": {
+            "q": "Quelle entreprise a développé l'iPhone et les ordinateurs Mac ?",
+            "choices": [
+                "Microsoft",
+                "Samsung",
+                "Google",
+                "Apple"
+            ],
+            "learn": "Ce géant de la tech, fondé dans un garage, a révolutionné l'informatique personnelle, la musique et les téléphones avec des designs iconiques.",
+            "explain": "Correct ! Apple Inc., fondée par Steve Jobs, Steve Wozniak et Ronald Wayne, est le créateur de ces produits."
+        },
+        "ar": {
+            "q": "أي شركة طورت هاتف آيفون وأجهزة كمبيوتر ماك؟",
+            "choices": [
+                "مايكروسوفت",
+                "سامسونج",
+                "جوجل",
+                "أبل"
+            ],
+            "learn": "هذا العملاق التكنولوجي، الذي تأسس في مرآب، أحدث ثورة في الحوسبة الشخصية والموسيقى والهواتف بتصاميم أيقونية.",
+            "explain": "صحيح! شركة آبل، التي أسسها ستيف جوبز وستيف وزنياك ورونالد واين، هي صانعة هذه المنتجات."
+        }
+    },
+    {
+        "id": 6,
+        "category": "history",
+        "answer_index": 2,
+        "difficulty": "medium",
+        "en": {
+            "q": "Which ancient wonder was a giant statue that stood over the harbor of Rhodes?",
+            "choices": [
+                "The Hanging Gardens",
+                "The Great Pyramid",
+                "The Colossus of Rhodes",
+                "The Lighthouse of Alexandria"
+            ],
+            "learn": "The Seven Wonders were remarkable man-made structures of the ancient world. One was a massive bronze statue of the sun god Helios.",
+            "explain": "Correct! The Colossus of Rhodes was a statue of the titan-god Helios, built around 280 BC. It was destroyed by an earthquake."
+        },
+        "fr": {
+            "q": "Quelle merveille antique était une statue géante qui se dressait au-dessus du port de Rhodes ?",
+            "choices": [
+                "Les Jardins Suspendus",
+                "La Grande Pyramide",
+                "Le Colosse de Rhodes",
+                "Le Phare d'Alexandrie"
+            ],
+            "learn": "Les Sept Merveilles étaient des constructions humaines remarquables du monde antique. L'une était une statue de bronze massive du dieu soleil Hélios.",
+            "explain": "Correct ! Le Colosse de Rhodes était une statue du titan dieu Hélios, construite vers 280 av. J.-C. Il a été détruit par un tremblement de terre."
+        },
+        "ar": {
+            "q": "أي عجائب الدنيا القديمة كانت تمثالًا عملاقًا يقف فوق ميناء رودس؟",
+            "choices": [
+                "الحدائق المعلقة",
+                "الهرم الأكبر",
+                "تمثال رودس العملاق",
+                "منارة الإسكندرية"
+            ],
+            "learn": "كانت عجائب الدنيا السبع منشآت بشرية رائعة في العالم القديم. إحداها كانت تمثالًا برونزيًا ضخمًا لإله الشمس هيليوس.",
+            "explain": "صحيح! كان تمثال رودس العملاق تمثالًا لإله الشمس تيتان هيليوس، بُني حوالي 280 قبل الميلاد. دُمّر بزلزال."
+        }
+    },
+    {
+        "id": 7,
+        "category": "math",
+        "answer_index": 0,
+        "difficulty": "easy",
+        "en": {
+            "q": "If a pizza is cut into 8 equal slices and you eat 3, what fraction of the pizza is left?",
+            "choices": [
+                "5/8",
+                "3/8",
+                "1/2",
+                "3/5"
+            ],
+            "learn": "Fractions represent parts of a whole. The bottom number (denominator) is the total number of equal parts.",
+            "explain": "Correct! 8 total slices - 3 eaten = 5 slices left. So 5 out of 8 slices, or 5/8, remain."
+        },
+        "fr": {
+            "q": "Si une pizza est coupée en 8 parts égales et que vous en mangez 3, quelle fraction de la pizza reste-t-il ?",
+            "choices": [
+                "5/8",
+                "3/8",
+                "1/2",
+                "3/5"
+            ],
+            "learn": "Les fractions représentent des parties d'un tout. Le nombre du bas (dénominateur) est le nombre total de parts égales.",
+            "explain": "Correct ! 8 parts au total - 3 mangées = 5 parts restantes. Donc 5 parts sur 8, ou 5/8, restent."
+        },
+        "ar": {
+            "q": "إذا تم تقطيع بيتزا إلى 8 شرائح متساوية وأكلت 3، فما الكسر المتبقي من البيتزا؟",
+            "choices": [
+                "5/8",
+                "3/8",
+                "1/2",
+                "3/5"
+            ],
+            "learn": "تمثل الكسور أجزاء من الكل. الرقم السفلي (المقام) هو العدد الإجمالي للأجزاء المتساوية.",
+            "explain": "صحيح! 8 شرائح إجمالاً - 3 مأكولة = 5 شرائح متبقية. إذن بقي 5 من 8 شرائح، أو 5/8."
+        }
+    },
+    {
+        "id": 8,
+        "category": "geography",
+        "answer_index": 3,
+        "difficulty": "hard",
+        "en": {
+            "q": "What is the largest country in the world by total land area?",
+            "choices": [
+                "Canada",
+                "China",
+                "United States",
+                "Russia"
+            ],
+            "learn": "Land area refers to the total area of a country's land, excluding large bodies of water within its borders.",
+            "explain": "Correct! Russia spans over 17 million square kilometers, covering parts of both Europe and Asia."
+        },
+        "fr": {
+            "q": "Quel est le plus grand pays du monde par superficie totale ?",
+            "choices": [
+                "Canada",
+                "Chine",
+                "États-Unis",
+                "Russie"
+            ],
+            "learn": "La superficie terrestre fait référence à la superficie totale des terres d'un pays, excluant les grandes étendues d'eau à l'intérieur de ses frontières.",
+            "explain": "Correct ! La Russie s'étend sur plus de 17 millions de kilomètres carrés, couvrant des parties de l'Europe et de l'Asie."
+        },
+        "ar": {
+            "q": "ما هي أكبر دولة في العالم من حيث المساحة الإجمالية؟",
+            "choices": [
+                "كندا",
+                "الصين",
+                "الولايات المتحدة",
+                "روسيا"
+            ],
+            "learn": "تشير المساحة الأرضية إلى إجمالي مساحة أراضي الدولة، باستثناء المسطحات المائية الكبيرة داخل حدودها.",
+            "explain": "صحيح! تمتد روسيا على أكثر من 17 مليون كيلومتر مربع، وتغطي أجزاء من أوروبا وآسيا."
+        }
+    },
+    {
+        "id": 9,
+        "category": "science",
+        "answer_index": 1,
+        "difficulty": "medium",
+        "en": {
+            "q": "Which part of the plant is primarily responsible for photosynthesis?",
+            "choices": [
+                "The Roots",
+                "The Leaves",
+                "The Flower",
+                "The Stem"
+            ],
+            "learn": "Photosynthesis is the process plants use to convert sunlight into food. It requires chlorophyll.",
+            "explain": "Correct! Leaves contain chloroplasts with chlorophyll, which capture sunlight energy to convert carbon dioxide and water into glucose."
+        },
+        "fr": {
+            "q": "Quelle partie de la plante est principalement responsable de la photosynthèse ?",
+            "choices": [
+                "Les Racines",
+                "Les Feuilles",
+                "La Fleur",
+                "La Tige"
+            ],
+            "learn": "La photosynthèse est le processus utilisé par les plantes pour convertir la lumière du soleil en nourriture. Elle nécessite de la chlorophylle.",
+            "explain": "Correct ! Les feuilles contiennent des chloroplastes avec de la chlorophylle, qui captent l'énergie solaire pour convertir le dioxyde de carbone et l'eau en glucose."
+        },
+        "ar": {
+            "q": "أي جزء من النبات مسؤول بشكل أساسي عن عملية التمثيل الضوئي؟",
+            "choices": [
+                "الجذور",
+                "الأوراق",
+                "الزهرة",
+                "الساق"
+            ],
+            "learn": "التمثيل الضوئي هو العملية التي تستخدمها النباتات لتحويل ضوء الشمس إلى غذاء. يتطلب الكلوروفيل.",
+            "explain": "صحيح! تحتوي الأوراق على بلاستيدات خضراء بها كلوروفيل، التي تلتقط طاقة ضوء الشمس لتحويل ثاني أكسيد الكربون والماء إلى جلوكوز."
+        }
+    },
+    {
+        "id": 10,
+        "category": "general_knowledge",
+        "answer_index": 2,
+        "difficulty": "medium",
+        "en": {
+            "q": "In the game of chess, which piece can only move diagonally?",
+            "choices": [
+                "The Rook",
+                "The Knight",
+                "The Bishop",
+                "The Queen"
+            ],
+            "learn": "Each chess piece has unique movement rules. Some move in straight lines, others in L-shapes or diagonals.",
+            "explain": "Correct! The Bishop moves any number of squares diagonally, and always stays on squares of the same color it started on."
+        },
+        "fr": {
+            "q": "Au jeu d'échecs, quelle pièce ne peut se déplacer qu'en diagonale ?",
+            "choices": [
+                "La Tour",
+                "Le Cavalier",
+                "Le Fou",
+                "La Dame"
+            ],
+            "learn": "Chaque pièce d'échecs a des règles de déplacement uniques. Certaines se déplacent en ligne droite, d'autres en L ou en diagonale.",
+            "explain": "Correct ! Le Fou se déplace d'autant de cases que souhaité en diagonale, et reste toujours sur des cases de la même couleur que sa case de départ."
+        },
+        "ar": {
+            "q": "في لعبة الشطرنج، أي قطعة يمكنها التحرك فقط بشكل قطري؟",
+            "choices": [
+                "الطابوق",
+                "الحصان",
+                "الفيل",
+                "الملكة"
+            ],
+            "learn": "كل قطعة شطرنج لها قواعد حركة فريدة. بعضها يتحرك في خطوط مستقيمة، والبعض الآخر بشكل حرف L أو بشكل قطري.",
+            "explain": "صحيح! يتحرك الفيل أي عدد من المربعات بشكل قطري، ويبقى دائمًا على مربعات من نفس اللون الذي بدأ عليه."
+        }
+    },
+    {
+        "id": 11,
+        "category": "history",
+        "answer_index": 1,
+        "difficulty": "hard",
+        "en": {
+            "q": "Which empire was ruled by Montezuma II when the Spanish conquistadors arrived in the early 1500s?",
+            "choices": [
+                "Inca Empire",
+                "Aztec Empire",
+                "Maya Civilization",
+                "Olmec Civilization"
+            ],
+            "learn": "Mesoamerica was home to advanced civilizations before European contact. One had a capital city on an island in a lake.",
+            "explain": "Correct! Montezuma II was the Huey Tlatoani (emperor) of the Aztec Empire, centered at Tenochtitlan, when Hernán Cortés arrived."
+        },
+        "fr": {
+            "q": "Quel empire était dirigé par Montezuma II lorsque les conquistadors espagnols sont arrivés au début des années 1500 ?",
+            "choices": [
+                "Empire Inca",
+                "Empire Aztèque",
+                "Civilisation Maya",
+                "Civilisation Olmèque"
+            ],
+            "learn": "La Mésoamérique abritait des civilisations avancées avant le contact européen. L'une d'elles avait une capitale sur une île dans un lac.",
+            "explain": "Correct ! Montezuma II était le Huey Tlatoani (empereur) de l'Empire Aztèque, centré à Tenochtitlan, lorsque Hernán Cortés est arrivé."
+        },
+        "ar": {
+            "q": "أي إمبراطورية كان يحكمها مونتيزوما الثاني عندما وصل الغزاة الإسبان في أوائل القرن السادس عشر؟",
+            "choices": [
+                "إمبراطورية الإنكا",
+                "إمبراطورية الأزتيك",
+                "حضارة المايا",
+                "حضارة الأولمك"
+            ],
+            "learn": "كانت أمريكا الوسطى موطنًا لحضارات متقدمة قبل الاتصال الأوروبي. إحداها كانت لها عاصمة على جزيرة في بحيرة.",
+            "explain": "صحيح! كان مونتيزوما الثاني هو هوي تلاتواني (إمبراطور) إمبراطورية الأزتيك، التي كانت عاصمتها تينوختيتلان، عندما وصل هيرنان كورتيس."
+        }
+    },
+    {
+        "id": 12,
+        "category": "math",
+        "answer_index": 0,
+        "difficulty": "medium",
+        "en": {
+            "q": "What is the area of a rectangle with a length of 10 units and a width of 5 units?",
+            "choices": [
+                "50 square units",
+                "15 square units",
+                "30 square units",
+                "25 square units"
+            ],
+            "learn": "Area measures the space inside a 2D shape. For a rectangle, it's length multiplied by width.",
+            "explain": "Correct! The formula is Area = length × width. So 10 × 5 = 50 square units."
+        },
+        "fr": {
+            "q": "Quelle est l'aire d'un rectangle d'une longueur de 10 unités et d'une largeur de 5 unités ?",
+            "choices": [
+                "50 unités carrées",
+                "15 unités carrées",
+                "30 unités carrées",
+                "25 unités carrées"
+            ],
+            "learn": "L'aire mesure l'espace à l'intérieur d'une forme en 2D. Pour un rectangle, c'est la longueur multipliée par la largeur.",
+            "explain": "Correct ! La formule est Aire = longueur × largeur. Donc 10 × 5 = 50 unités carrées."
+        },
+        "ar": {
+            "q": "ما هي مساحة مستطيل طوله 10 وحدات وعرضه 5 وحدات؟",
+            "choices": [
+                "50 وحدة مربعة",
+                "15 وحدة مربعة",
+                "30 وحدة مربعة",
+                "25 وحدة مربعة"
+            ],
+            "learn": "تقيس المساحة المساحة داخل شكل ثنائي الأبعاد. بالنسبة للمستطيل، هي الطول مضروبًا في العرض.",
+            "explain": "صحيح! الصيغة هي: المساحة = الطول × العرض. إذن 10 × 5 = 50 وحدة مربعة."
+        }
+    },
+    {
+        "id": 13,
+        "category": "geography",
+        "answer_index": 3,
+        "difficulty": "easy",
+        "en": {
+            "q": "What is the capital city of Japan?",
+            "choices": [
+                "Osaka",
+                "Kyoto",
+                "Shanghai",
+                "Tokyo"
+            ],
+            "learn": "A capital city is the seat of government. Japan is an island nation in East Asia with a very populous metropolitan area as its capital.",
+            "explain": "Correct! Tokyo is Japan's capital and largest city, a massive global financial and cultural hub."
+        },
+        "fr": {
+            "q": "Quelle est la capitale du Japon ?",
+            "choices": [
+                "Osaka",
+                "Kyoto",
+                "Shanghai",
+                "Tokyo"
+            ],
+            "learn": "Une capitale est le siège du gouvernement. Le Japon est une nation insulaire d'Asie de l'Est dont la capitale est une zone métropolitaine très peuplée.",
+            "explain": "Correct ! Tokyo est la capitale et la plus grande ville du Japon, un immense centre financier et culturel mondial."
+        },
+        "ar": {
+            "q": "ما هي العاصمة اليابانية؟",
+            "choices": [
+                "أوساكا",
+                "كيوتو",
+                "شنغهاي",
+                "طوكيو"
+            ],
+            "learn": "العاصمة هي مقر الحكومة. اليابان دولة جزرية في شرق آسيا، عاصمتها منطقة حضرية مكتظة بالسكان.",
+            "explain": "صحيح! طوكيو هي عاصمة اليابان وأكبر مدنها، وهي مركز مالي وثقافي عالمي ضخم."
+        }
+    },
+    {
+        "id": 14,
+        "category": "science",
+        "answer_index": 1,
+        "difficulty": "hard",
+        "en": {
+            "q": "Which of these planets in our solar system is known to have the most extensive ring system?",
+            "choices": [
+                "Jupiter",
+                "Saturn",
+                "Uranus",
+                "Neptune"
+            ],
+            "learn": "All four gas giants have rings, but one's rings are so bright and wide they are visible from Earth with a small telescope.",
+            "explain": "Correct! Saturn's rings are made mostly of ice particles and rocky debris, making them the most prominent and spectacular."
+        },
+        "fr": {
+            "q": "Laquelle de ces planètes de notre système solaire est connue pour avoir le système d'anneaux le plus étendu ?",
+            "choices": [
+                "Jupiter",
+                "Saturne",
+                "Uranus",
+                "Neptune"
+            ],
+            "learn": "Les quatre géantes gazeuses ont des anneaux, mais ceux d'une planète sont si brillants et larges qu'ils sont visibles depuis la Terre avec un petit télescope.",
+            "explain": "Correct ! Les anneaux de Saturne sont principalement composés de particules de glace et de débris rocheux, ce qui les rend les plus proéminents et spectaculaires."
+        },
+        "ar": {
+            "q": "أي من هذه الكواكب في نظامنا الشمسي معروف بأنه يحتوي على النظام الحلقي الأكثر اتساعًا؟",
+            "choices": [
+                "المشتري",
+                "زحل",
+                "أورانوس",
+                "نبتون"
+            ],
+            "learn": "جميع الكواكب الغازية العملاقة الأربعة لها حلقات، لكن حلقات أحدها لامعة وواسعة لدرجة أنها مرئية من الأرض بتلسكوب صغير.",
+            "explain": "صحيح! تتكون حلقات زحل في الغالب من جزيئات الجليد والحطام الصخري، مما يجعلها الأبرز والأكثر إثارة للإعجاب."
+        }
+    },
+    {
+        "id": 15,
+        "category": "general_knowledge",
+        "answer_index": 0,
+        "difficulty": "easy",
+        "en": {
+            "q": "Which of these is a primary color of light (used in screens like TVs and phones)?",
+            "choices": [
+                "Red",
+                "Yellow",
+                "Cyan",
+                "Brown"
+            ],
+            "learn": "Light uses an 'additive' color model. Mixing different colored lights creates new colors.",
+            "explain": "Correct! The primary colors of light are Red, Green, and Blue (RGB). Mixing them at full intensity makes white light."
+        },
+        "fr": {
+            "q": "Laquelle de ces couleurs est une couleur primaire de la lumière (utilisée dans les écrans comme les télés et les téléphones) ?",
+            "choices": [
+                "Rouge",
+                "Jaune",
+                "Cyan",
+                "Marron"
+            ],
+            "learn": "La lumière utilise un modèle de couleur 'additif'. Mélanger différentes lumières colorées crée de nouvelles couleurs.",
+            "explain": "Correct ! Les couleurs primaires de la lumière sont le Rouge, le Vert et le Bleu (RVB). Les mélanger à pleine intensité donne de la lumière blanche."
+        },
+        "ar": {
+            "q": "أي من هذه الألوان هو لون أساسي للضوء (يُستخدم في الشاشات مثل التلفزيونات والهواتف)؟",
+            "choices": [
+                "أحمر",
+                "أصفر",
+                "سماوي",
+                "بني"
+            ],
+            "learn": "يستخدم الضوء نموذج ألوان 'جمعي'. خلط أضواء ملونة مختلفة يخلق ألوانًا جديدة.",
+            "explain": "صحيح! الألوان الأساسية للضوء هي الأحمر والأخضر والأزرق (RGB). خلطها بكثافة كاملة ينتج ضوءًا أبيض."
+        }
+    },
+    {
+        "id": 16,
+        "category": "history",
+        "answer_index": 2,
+        "difficulty": "medium",
+        "en": {
+            "q": "The Magna Carta, signed in 1215, is historically significant for establishing what principle?",
+            "choices": [
+                "The right to bear arms",
+                "The separation of church and state",
+                "The rule of law and limits on royal power",
+                "Universal suffrage"
+            ],
+            "learn": "This document was forced upon an English king by his barons. It aimed to prevent the king from exploiting his power arbitrarily.",
+            "explain": "Correct! It established that the king was not above the law and guaranteed certain rights to his subjects, influencing modern constitutional law."
+        },
+        "fr": {
+            "q": "La Magna Carta, signée en 1215, est historiquement importante pour avoir établi quel principe ?",
+            "choices": [
+                "Le droit de porter des armes",
+                "La séparation de l'Église et de l'État",
+                "La primauté du droit et les limites du pouvoir royal",
+                "Le suffrage universel"
+            ],
+            "learn": "Ce document a été imposé à un roi anglais par ses barons. Il visait à empêcher le roi d'exploiter son pouvoir arbitrairement.",
+            "explain": "Correct ! Elle a établi que le roi n'était pas au-dessus des lois et a garanti certains droits à ses sujets, influençant le droit constitutionnel moderne."
+        },
+        "ar": {
+            "q": "الماغنا كارتا، التي وُقعت عام 1215، لها أهمية تاريخية لإنشائها أي مبدأ؟",
+            "choices": [
+                "حق حمل السلاح",
+                "فصل الدين عن الدولة",
+                "سيادة القانون وحدود السلطة الملكية",
+                "الاقتراع العام"
+            ],
+            "learn": "أُجبر ملك إنجليزي على قبول هذه الوثيقة من قبل باروناته. هدفت إلى منع الملك من استغلال سلطته بشكل تعسفي.",
+            "explain": "صحيح! أثبتت أن الملك ليس فوق القانون وضمنت حقوقًا معينة لرعاياه، مؤثرة على القانون الدستوري الحديث."
+        }
+    },
+    {
+        "id": 17,
+        "category": "math",
+        "answer_index": 1,
+        "difficulty": "hard",
+        "en": {
+            "q": "If a triangle has one angle measuring 90°, what type of triangle is it?",
+            "choices": [
+                "Acute Triangle",
+                "Right Triangle",
+                "Obtuse Triangle",
+                "Equilateral Triangle"
+            ],
+            "learn": "Triangles are classified by their angles. All angles in a triangle add up to 180 degrees.",
+            "explain": "Correct! A triangle with a 90° angle is a right triangle. The side opposite the right angle is called the hypotenuse."
+        },
+        "fr": {
+            "q": "Si un triangle a un angle mesurant 90°, quel type de triangle est-ce ?",
+            "choices": [
+                "Triangle Acutangle",
+                "Triangle Rectangle",
+                "Triangle Obtusangle",
+                "Triangle Équilatéral"
+            ],
+            "learn": "Les triangles sont classés selon leurs angles. La somme des angles d'un triangle est de 180 degrés.",
+            "explain": "Correct ! Un triangle avec un angle de 90° est un triangle rectangle. Le côté opposé à l'angle droit s'appelle l'hypoténuse."
+        },
+        "ar": {
+            "q": "إذا كان للمثلث زاوية قياسها 90°، فما نوع هذا المثلث؟",
+            "choices": [
+                "مثلث حاد الزوايا",
+                "مثلث قائم الزاوية",
+                "مثلث منفرج الزاوية",
+                "مثلث متساوي الأضلاع"
+            ],
+            "learn": "تُصنف المثلثات حسب زواياها. مجموع زوايا المثلث يساوي 180 درجة.",
+            "explain": "صحيح! المثلث الذي له زاوية قياسها 90° هو مثلث قائم الزاوية. يُسمى الضلع المقابل للزاوية القائمة بالوتر."
+        }
+    },
+    {
+        "id": 18,
+        "category": "geography",
+        "answer_index": 0,
+        "difficulty": "medium",
+        "en": {
+            "q": "The 'Sahara' is a vast desert located on which continent?",
+            "choices": [
+                "Africa",
+                "Asia",
+                "Australia",
+                "South America"
+            ],
+            "learn": "Deserts are defined by low precipitation. The largest hot desert in the world covers much of the northern part of a continent.",
+            "explain": "Correct! The Sahara Desert covers most of North Africa, making it the largest hot desert on Earth."
+        },
+        "fr": {
+            "q": "Le 'Sahara' est un vaste désert situé sur quel continent ?",
+            "choices": [
+                "Afrique",
+                "Asie",
+                "Australie",
+                "Amérique du Sud"
+            ],
+            "learn": "Les déserts sont définis par de faibles précipitations. Le plus grand désert chaud du monde couvre une grande partie du nord d'un continent.",
+            "explain": "Correct ! Le désert du Sahara couvre la majeure partie de l'Afrique du Nord, ce qui en fait le plus grand désert chaud de la Terre."
+        },
+        "ar": {
+            "q": "'الصحراء الكبرى' هي صحراء شاسعة تقع في أي قارة؟",
+            "choices": [
+                "أفريقيا",
+                "آسيا",
+                "أستراليا",
+                "أمريكا الجنوبية"
+            ],
+            "learn": "تُعرَّف الصحاري بهطول الأمطار المنخفض. أكبر صحراء حارة في العالم تغطي جزءًا كبيرًا من الجزء الشمالي لقارة.",
+            "explain": "صحيح! تغطي الصحراء الكبرى معظم شمال أفريقيا، مما يجعلها أكبر صحراء حارة على الأرض."
+        }
+    },
+    {
+        "id": 19,
+        "category": "history",
+        "answer_index": 3,
+        "difficulty": "easy",
+        "en": {
+            "q": "Who is credited with painting the Mona Lisa?",
+            "choices": [
+                "Michelangelo",
+                "Raphael",
+                "Van Gogh",
+                "Leonardo da Vinci"
+            ],
+            "learn": "This Italian Renaissance artist was also a scientist, inventor, and architect. He kept detailed notebooks.",
+            "explain": "Correct! Leonardo da Vinci painted the Mona Lisa (La Gioconda) in the early 1500s. It now resides in the Louvre Museum in Paris."
+        },
+        "fr": {
+            "q": "À qui attribue-t-on la peinture de la Joconde (Mona Lisa) ?",
+            "choices": [
+                "Michel-Ange",
+                "Raphaël",
+                "Van Gogh",
+                "Léonard de Vinci"
+            ],
+            "learn": "Cet artiste de la Renaissance italienne était aussi scientifique, inventeur et architecte. Il tenait des carnets de notes détaillés.",
+            "explain": "Correct ! Léonard de Vinci a peint la Joconde (Mona Lisa) au début des années 1500. Elle se trouve aujourd'hui au musée du Louvre à Paris."
+        },
+        "ar": {
+            "q": "ينسب رسم لوحة الموناليزا إلى من؟",
+            "choices": [
+                "مايكل أنجلو",
+                "رافائيل",
+                "فان جوخ",
+                "ليوناردو دا فينشي"
+            ],
+            "learn": "كان هذا الفنان الإيطالي في عصر النهضة أيضًا عالمًا ومخترعًا ومهندسًا معماريًا. كان يحتفظ بدفاتر ملاحظات مفصلة.",
+            "explain": "صحيح! رسم ليوناردو دا فينشي لوحة الموناليزا (لا جوكوندا) في أوائل القرن السادس عشر. وهي الآن في متحف اللوفر في باريس."
+        }
+    },
+    {
+        "id": 20,
+        "category": "math",
+        "answer_index": 2,
+        "difficulty": "easy",
+        "en": {
+            "q": "What is the result of 7 x 8?",
+            "choices": [
+                "48",
+                "54",
+                "56",
+                "64"
+            ],
+            "learn": "Multiplication is repeated addition. For example, 7 x 8 means adding the number 7 a total of 8 times.",
+            "explain": "Correct! 7 multiplied by 8 equals 56. It's one of the key multiplication facts to remember."
+        },
+        "fr": {
+            "q": "Quel est le résultat de 7 x 8 ?",
+            "choices": [
+                "48",
+                "54",
+                "56",
+                "64"
+            ],
+            "learn": "La multiplication est une addition répétée. Par exemple, 7 x 8 signifie ajouter le nombre 7 un total de 8 fois.",
+            "explain": "Correct ! 7 multiplié par 8 égale 56. C'est l'une des tables de multiplication clés à retenir."
+        },
+        "ar": {
+            "q": "ما هو نتيجة 7 × 8؟",
+            "choices": [
+                "48",
+                "54",
+                "56",
+                "64"
+            ],
+            "learn": "الضرب هو جمع متكرر. على سبيل المثال، 7 × 8 تعني إضافة الرقم 7 ما مجموعه 8 مرات.",
+            "explain": "صحيح! 7 مضروبًا في 8 يساوي 56. إنها واحدة من حقائق الضرب الأساسية التي يجب تذكرها."
+        }
+    }
+]
